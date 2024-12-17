@@ -3,24 +3,24 @@ project:
   output-dir: docs
   
 website:
-  title: "R by the Sea"
+  title: "R by the Sea (Japan 2025)"
   favicon: images/ocean.png
   navbar:
-    background: "#7595bc" 
+    background: "#768a91" 
     foreground: "#000000"
     search: false
     left:
       - text: Home
         href: index.qmd
-      - text: Schedule & Course Materials 2024
+      - text: Schedule & Course Materials 2025
         href: schedule.qmd
       - text: Instructors
         href: instructors.qmd
     tools:
       - icon: github
-        href:  https://github.com/QuantMarineEcoLab/r_by_the_sea
+        href:  https://github.com/QuantMarineEcoLab/r_by_the_sea-jp
   page-footer: 
-    left: "Made by EMW & ERW (2024)" 
+    left: "Made by EMW & ERW (2025)" 
     right: "Powered by Quarto"
         
 format:
