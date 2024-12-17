@@ -6,8 +6,8 @@ website:
   title: "R by the Sea (Japan 2025)"
   favicon: images/ocean.png
   navbar:
-    background: "#768a91" 
-    foreground: "#000000"
+    background: "#000000" 
+    foreground: "#ffffff"
     search: false
     left:
       - text: Home

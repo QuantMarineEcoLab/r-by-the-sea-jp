@@ -35,5 +35,28 @@ page-navigation: false
 
 :::
 
+::: {.g-col-6}
+<div class="bio-card">
+  <img src="images/DV.png" alt="Drew Villeneuve">
+  <h4>Drew Villenueuve</h4>
+  <p><i> (he/him)</i> </p>
+  <h6>PhD Candidate<br>
+  Department of Biology<br>
+  University of New Hampshire (UNH)</h6>
+</div> 
+:::
+
+
+::: {.g-col-6}
+<div class="bio-card">
+  <img src="images/ff.png" alt="Faith Frings">
+  <h4>Faith Frings </h4>
+  <p><i>(she/her)</i></p>
+  <h6>PhD Candidate<br>
+  Department of Biology<br>
+  University of New Hampshire (UNH)</h6>
+</div> 
+:::
+
 :::
 
