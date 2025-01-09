@@ -5,8 +5,8 @@ format: html
 
 # Logistics for Enrolled Students
 
-- We will meet 
-- Communication for this class will primarily happen on [Slack](https://slack.com/). We recommend that you download the mobile app for ease of communication while we are on island. Check your email for the invite link.
+The workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). [Details for how to get there can be found here](https://www.agri.tohoku.ac.jp/en/access/amap/). 
+
 
 # Install R and RStudio
 
