@@ -19,7 +19,6 @@ execute:
 library(tidyverse)
 ```
 
-
 ```{r}
 #This assignment concerns the gapminder dataset
 # First, Download gapminder from the menu at the right ---> 
@@ -37,8 +36,7 @@ data(gapminder) #this code loads the gapminder data so you can view it in your e
 
 ```
 
-4. If you instead try to choose the subset with year equal to 2005, something will be weird. Try it and
-explain what happens and why.
+4. If you instead try to choose the subset with year equal to 2005, something will be weird. Try it and explain what happens and why.
 
 ```{r}
 
@@ -52,7 +50,7 @@ explain what happens and why.
 
 6. In the above problem, you would have put quotes around `United States` but not around `2007`. Explain why. 
 
-7. Which country had a higher life expectancy per capita in 1977: Ireland or Brazil? 
+7. Which country had a higher life expectancy per capita in 1977: US or Japan? 
 
 ```{r}
 

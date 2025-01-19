@@ -16,6 +16,8 @@ website:
         href: schedule.qmd
       - text: Instructors
         href: instructors.qmd
+      - text: Notes
+        href: notes.qmd
     tools:
       - icon: github
         href:  https://github.com/QuantMarineEcoLab/r_by_the_sea-jp

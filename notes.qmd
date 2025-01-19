@@ -1,28 +1,15 @@
 ---
 website: 
   sidebar:
-    - title: "Tutorials"
-      style: "docked"
-      background: light
-      contents:
-        - tutorials.qmd
-        - tutorial-1.qmd
-        - tutorial-2.qmd
-
-    - title: "How-To"
-      contents:
-        - howto.qmd
-        # navigation items
-
-    - title: "Fundamentals"
-      contents:
-        - fundamentals.qmd
-        # navigation items
-
-    - title: "Reference"
-      contents:
-        - reference.qmd
-        # navigation items
+    title: "Notes"
+    style: "docked"
+    search: true
+    contents:
+        - notes/B_Wrangling_Notes.qmd
+        - notes/C_Aggregating_Notes.qmd
+        - notes/D_ggplot1_Notes.qmd
+        - notes/E_ggplot2_Notes.qmd
+        - notes/F_Joining_Notes.qmd
 format: html
 ---
 

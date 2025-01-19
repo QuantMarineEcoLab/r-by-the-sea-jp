@@ -18,7 +18,8 @@ execute:
 library(tidyverse)
 ```
 
-Today's Dataset: `palmerpenguins`
+# Today's Dataset: `palmerpenguins`
+
 Size measurements, clutch observations, and blood isotope ratios for adult foraging Adélie, Chinstrap, and Gentoo penguins observed on islands in the Palmer Archipelago near Palmer Station, Antarctica. Data were collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program.
 
 ```{r message=FALSE, warning=FALSE}
@@ -113,10 +114,9 @@ penguins %>%
   summarise(number_penguins = n())
 ```
 
-#### Badges Earned  ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhsk_cHyOy9se9hNx4Anx1TmENrBsbA9h0QZEymM0D&s){width=1in}
-
-#### Badges in Progress ![](https://github.com/rstudio/hex-stickers/raw/main/thumbs/dplyr.png){width=1in}
 
 # Brain Break
 
-[This is a story about Jinjing the South American Magellanic Penguin, that swims 5,000 miles each year to be reunited with the man who saved his life.The rescued Penguin was saved by João Pereira de Souza, a 73 year old part-time fisherman, who lives in an island village just outside Rio de Janeiro, Brazil. ](https://youtu.be/oks2R4LqWtE)
+This is a story about Jinjing the South American Magellanic Penguin, that swims 5,000 miles each year to be reunited with the man who saved his life. The rescued Penguin was saved by João Pereira de Souza, a 73 year old part-time fisherman, who lives in an island village just outside Rio de Janeiro, Brazil.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oks2R4LqWtE?si=-oIE1Y5OKtNJu26J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -29,7 +29,9 @@ library(gt)
 library(tidyverse)
 library(fontawesome)
 gs4_deauth()
-d <- read_sheet("https://docs.google.com/spreadsheets/d/13ANTSS5txUPlKCsSvw29UOo5jVPhwdper3I9QTbnrto/edit?usp=sharing", sheet = "Sheet1")
+d <- read_sheet("https://docs.google.com/spreadsheets/d/13ANTSS5txUPlKCsSvw29UOo5jVPhwdper3I9QTbnrto/edit?usp=sharing", sheet = "Sheet1") %>% 
+  select(-Lead) %>% 
+  rename(Exercise = Homework)
 ```
 
 
@@ -63,7 +65,7 @@ d |>
       )
     }
   ) |>
-  text_transform(cells_body(columns = c(Homework)),
+  text_transform(cells_body(columns = c(Exercise)),
     fn = function(x) {
       ifelse(is.na(x), fontawesome::fa("file-pen", fill_opacity = 0.1),
         glue::glue("<a href = {x}>{fontawesome::fa('file-pen')}</a>")
@@ -80,7 +82,7 @@ d |>
   # aligning columns
   cols_align(
     align = "center", 
-    columns = c(Template, Notes, Homework, Videos)
+    columns = c(Template, Notes, Exercise, Videos)
     ) |>
   cols_align(
     align = "left", 
