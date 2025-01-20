@@ -1,0 +1,14 @@
+{
+  "hash": "0db2b557757ea9f0601942968d6d49a2",
+  "result": {
+    "markdown": "---\ntitle: \"Master R Cheatsheet\"\nformat:\n  html: \n    theme: flatly\neditor: visual\n---\n\n\n## Tutorial Links\n\n[Quarto Guidelines](https://quarto.org/docs/guide/)\n\n## IDE Cheatsheets\n\nChanging language in R Studio to English\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#Sys.setenv(LANG = \"en\")\n```\n:::\n\n\n## Shortcuts\n\n- %>%\n    - Mac: Cmd + Shift + m\n    - PC: Ctrl + Shift + m\n- R chunk\n    - Mac: Option + Cmd + i\n    - PC: Ctrl + Alt + i\n- <- \n    - Mac: Option + -\n    - PC: Alt + -\n\n\n### Equal signs\n\n- = : assigning values/characters to an object (sometimes replaces <-)\n- == : logical expression \n      -Ex: filter(species == \"Adelie\")\n    \n::: {.callout-warning .fragment title=\"Tidyverse\" style=\"font-size: 70%\"}\nA %>% is needed to link functions\n:::\n\nExample: If the pipe (%>%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object 'Species' not found.\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa <- iris %>% \n  select(Species, Petal.Length) %>% \n  filter(Species == \"setosa\")\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

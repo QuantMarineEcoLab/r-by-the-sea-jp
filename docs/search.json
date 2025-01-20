@@ -543,21 +543,21 @@
     "href": "notes/A_Intro_Notes.html",
     "title": "Notes A",
     "section": "",
-    "text": "Markdown Syntax\nOutput\n\n\n\n\n*italics*\nitalics\n\n\n**bold**\nbold\n\n\n***bold italics***\nbold italics\n\n\n- chai tea\n- green tea\n- earl grey tea\n\nchai tea\ngreen tea\nearl grey tea\n\n\n\n[this is the text that will display](www.google.com)\nthis is the text that will display\n\n\n![a caption here](jellyfish.jpg)"
+    "text": "Tip\n\n\n\nA comprehensive list of markdown syntax can be found at https://quarto.org/docs/authoring/markdown-basics.html."
   },
   {
     "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
     "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
     "title": "Notes A",
     "section": "Centered and large equations",
-    "text": "Centered and large equations\nType in the plain text section: \n\n$$y=\\frac{x^2}{SE(x^2)} $$\n\nDisplays as: \n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
+    "text": "Centered and large equations\nType in the plain text section:\n$$y=\\frac{x^2}{SE(x^2)} $$\nDisplays as:\n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
   },
   {
     "objectID": "notes/A_Intro_Notes.html#in-line-equations",
     "href": "notes/A_Intro_Notes.html#in-line-equations",
     "title": "Notes A",
     "section": "In line equations",
-    "text": "In line equations\nType in the plain text section: \n\nWe take and calculate the standard error $SE(x_1)$.\n\nDisplays as: \nWe take and calculate the standard error \\(SE(x_1)\\)."
+    "text": "In line equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
   },
   {
     "objectID": "notes/A_Intro_Notes.html#inline-code",
@@ -565,5 +565,40 @@
     "title": "Notes A",
     "section": "Inline code",
     "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
+  },
+  {
+    "objectID": "notes/Master_Cheatsheet.html",
+    "href": "notes/Master_Cheatsheet.html",
+    "title": "Master R Cheatsheet",
+    "section": "",
+    "text": "Quarto Guidelines"
+  },
+  {
+    "objectID": "notes/Master_Cheatsheet.html#tutorial-links",
+    "href": "notes/Master_Cheatsheet.html#tutorial-links",
+    "title": "Master R Cheatsheet",
+    "section": "",
+    "text": "Quarto Guidelines"
+  },
+  {
+    "objectID": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "href": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "title": "Master R Cheatsheet",
+    "section": "IDE Cheatsheets",
+    "text": "IDE Cheatsheets\nChanging language in R Studio to English\n\n#Sys.setenv(LANG = \"en\")"
+  },
+  {
+    "objectID": "notes/Master_Cheatsheet.html#shortcuts",
+    "href": "notes/Master_Cheatsheet.html#shortcuts",
+    "title": "Master R Cheatsheet",
+    "section": "Shortcuts",
+    "text": "Shortcuts\n\n%&gt;%\n\nMac: Cmd + Shift + m\nPC: Ctrl + Shift + m\n\nR chunk\n\nMac: Option + Cmd + i\nPC: Ctrl + Alt + i\n\n&lt;-\n\nMac: Option + -\nPC: Alt + -\n\n\n\nEqual signs\n\n= : assigning values/characters to an object (sometimes replaces &lt;-)\n== : logical expression -Ex: filter(species == “Adelie”)\n\n\n\n\n\n\n\nTidyverse\n\n\n\nA %&gt;% is needed to link functions\n\n\nExample: If the pipe (%&gt;%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object ‘Species’ not found.\n\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa &lt;- iris %&gt;% \n  select(Species, Petal.Length) %&gt;% \n  filter(Species == \"setosa\")"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-equations",
+    "href": "notes/A_Intro_Notes.html#inline-equations",
+    "title": "Notes A",
+    "section": "Inline equations",
+    "text": "Inline equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
   }
 ]

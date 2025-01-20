@@ -4588,7 +4588,7 @@ color: #000;
   <li><a href="#equations" id="toc-equations" class="nav-link" data-scroll-target="#equations">Equations</a>
   <ul class="collapse">
   <li><a href="#centered-and-large-equations" id="toc-centered-and-large-equations" class="nav-link" data-scroll-target="#centered-and-large-equations">Centered and large equations</a></li>
-  <li><a href="#in-line-equations" id="toc-in-line-equations" class="nav-link" data-scroll-target="#in-line-equations">In line equations</a></li>
+  <li><a href="#inline-equations" id="toc-inline-equations" class="nav-link" data-scroll-target="#inline-equations">Inline equations</a></li>
   <li><a href="#inline-code" id="toc-inline-code" class="nav-link" data-scroll-target="#inline-code">Inline code</a></li>
   </ul></li>
   </ul>
@@ -4621,6 +4621,19 @@ color: #000;
 
 </header>
 
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A comprehensive list of markdown syntax can be found at <a href="https://quarto.org/docs/authoring/markdown-basics.html">https://quarto.org/docs/authoring/markdown-basics.html</a>.</p>
+</div>
+</div>
 <section id="in-lab-examples" class="level1">
 <h1>In-lab Examples</h1>
 <table class="table">
@@ -4711,7 +4724,8 @@ color: #000;
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1.612</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(z)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This calculates the standard deviation of z</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(z)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.1125581</code></pre>
 </div>
@@ -4721,21 +4735,17 @@ color: #000;
 <h1>Equations</h1>
 <section id="centered-and-large-equations" class="level2">
 <h2 data-anchor-id="centered-and-large-equations">Centered and large equations</h2>
-<div class="sourceCode" id="cb17"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="an">Type in the plain text section:</span><span class="co"> </span></span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>$$y=\frac{x^2}{SE(x^2)} $$</span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>Displays as: </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Type in the plain text section:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>$$y=\frac{x^2}{SE(x^2)} $$</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Displays as:</p>
 <p><span class="math display">\[y=\frac{x^2}{SE(x^2)} \]</span></p>
 <p><em>Hint: Some people like to use the visual editor to insert equations</em></p>
 </section>
-<section id="in-line-equations" class="level2">
-<h2 data-anchor-id="in-line-equations">In line equations</h2>
-<div class="sourceCode" id="cb18"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="an">Type in the plain text section:</span><span class="co"> </span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>We take and calculate the standard error $SE(x_1)$.</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>Displays as: </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="inline-equations" class="level2">
+<h2 data-anchor-id="inline-equations">Inline equations</h2>
+<p>Type in the plain text section:</p>
+<p>We take and calculate the standard error <code>$SE(x_1)$.</code></p>
+<p>Displays as:</p>
 <p>We take and calculate the standard error <span class="math inline">\(SE(x_1)\)</span>.</p>
 </section>
 <section id="inline-code" class="level2">

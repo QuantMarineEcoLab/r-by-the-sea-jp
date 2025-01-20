@@ -12,6 +12,11 @@ execute:
   warning: FALSE
 ---
 
+::: {.callout-tip}
+A comprehensive list of markdown syntax can be found at [https://quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html). 
+:::
+
+
 # In-lab Examples
 
 +------------------------------------------------------+------------------------------------------------------+
@@ -94,6 +99,8 @@ z_inches <- z*39.701
 
 # This calculates the mean of z
 mean(z, na.rm=TRUE)
+
+# This calculates the standard deviation of z
 sd(z)
 ```
 
@@ -101,27 +108,28 @@ sd(z)
 
 ## Centered and large equations
 
-``` markdown
 Type in the plain text section: 
 
+``` markdown
 $$y=\frac{x^2}{SE(x^2)} $$
+```
 
 Displays as: 
-```
 
 $$y=\frac{x^2}{SE(x^2)} $$
 
 *Hint: Some people like to use the visual editor to insert equations*
 
-## In line equations
+## Inline equations
 
-``` markdown
+
 Type in the plain text section: 
 
-We take and calculate the standard error $SE(x_1)$.
+```{r, results='asis', echo=FALSE}
+cat("We take and calculate the standard error `` $SE(x_1)$. ``")
+```
 
 Displays as: 
-```
 
 We take and calculate the standard error $SE(x_1)$.
 
@@ -137,4 +145,6 @@ cat("This is a sentence. The value of x is `` `r x` ``")
 Displays as: 
 
 This is a sentence. The value of x is `r x`.
+
+
 
