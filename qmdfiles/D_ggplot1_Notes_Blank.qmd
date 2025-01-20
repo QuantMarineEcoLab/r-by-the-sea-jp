@@ -1,17 +1,11 @@
 ---
-title: 'Notes D'
-subtitle: 'Making plots  with ggplot2: barplots and scatterplots`'
-format:
-  html:
-    toc: true
-    code-overflow: wrap
-    code-fold: false
-    embed-resources: true
-execute: 
-  message: FALSE
-  warning: FALSE
+title: "Notes D"
+subtitle: "Making plots  with ggplot2: barplots and scatterplots"
+author: " "
+output:
+  html_document:
+    code_folding: hide
 ---
-
 
 ```{r}
 library(tidyverse)
