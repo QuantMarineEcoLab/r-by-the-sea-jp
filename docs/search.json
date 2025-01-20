@@ -537,5 +537,26 @@
     "title": "Notes P",
     "section": "customizing axes breaks",
     "text": "customizing axes breaks\n\nsp\nsp + \n  scale_y_continuous(breaks=c(2,3,4,5))"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html",
+    "href": "notes/A_Intro_Notes.html",
+    "title": "Notes A",
+    "section": "",
+    "text": "Markdown Syntax\nOutput\n\n\n\n\n*italics*\nitalics\n\n\n**bold**\nbold\n\n\n***bold italics***\nbold italics\n\n\n- chai tea\n- green tea\n- earl grey tea\n\nchai tea\ngreen tea\nearl grey tea\n\n\n\n[this is the text that will display](www.google.com)\nthis is the text that will display\n\n\n![a caption here](jellyfish.jpg)\n\n\n\n\n\nR chunks\nCMD + OPTION + I Ctrl + ALT + I\n\n\n[1] 4\n\n\ncreate an object\n\n\n[1] 22\n\n\n\n\n[1] 1.612\n\n\n[1] 0.1125581"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "title": "Notes A",
+    "section": "Centered and large equations",
+    "text": "Centered and large equations\n$$y=\\frac{x^2}{SE(x^2)} $$\n\\[y=\\frac{x^2}{SE(x^2)} \\]"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#in-line-equations",
+    "href": "notes/A_Intro_Notes.html#in-line-equations",
+    "title": "Notes A",
+    "section": "In line equations",
+    "text": "In line equations\nWe take and calculate the standard error $SE(x_1)$. \nWe take and calculate the standard error \\(SE(x_1)\\)."
   }
 ]
