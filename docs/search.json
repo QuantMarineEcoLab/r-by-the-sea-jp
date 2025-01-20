@@ -7,32 +7,46 @@
     "text": "Logistics for Enrolled Students\nThe workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). Details for how to get there can be found here.\n\n\nInstall R and RStudio\nTo access the course materials, you will need to have both R and RStudio installed on your computer. Follow the instructions available on the Posit website: https://posit.co/download/rstudio-desktop/.\n\nNote that there are two programs you need to download. R (or base R) is the brains or the calculator working behind the scenes - to work with this directly is possible but it’s a bit messy. RStudio is an additional interface that makes it easier to organize your scripts, your plots, your objects, and your files in one window. Typically, we will open RStudio and work directly in that program but it’s important to also have R installed in the background.\n\nYou should install these two programs before our first class. There will be some time given during our first class to help troubleshoot any issues that might arise during installation.\n\n\n\nSchedule & Course Materials\n\nto download the .qmd files (Template, Homework) you should right click and “Save Link As…”\nto view the Notes, just left-click in the usual way\n\n\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n      Date\n      Time\n      Letter\n      Topic\n      Notes\n      Template\n      Data\n      Desc\n      Exercise\n      Videos\n    \n  \n  \n    Mon, Jan 20\n9:30AM\n\nIntroduction and Welcome\n\n\n\n\n\n\n    \n11:00AM\nA\nInstallation, Intro R, RMarkdown, File Paths\n\n\n\n\n\n\n    \n12:30PM\n\nLUNCH\n\n\n\n\n\n\n    \n1:30PM\nB\nNaming Objects, Wrangling data with `dplyr`:: `filter`, `select`, `arrange`\n\n\n\npossum.csv\n\n\n    \n3:00PM\nC\nAggregating data with `summarize`, `group_by()`\n\n\n\n\n\n\n    \n4:30PM\n\nOffice hours / Catch up\n\n\n\n\n\n\n    Tues, Jan 21\n9:30AM\nD\nMaking plots with `ggplot2`\n\n\n\n\n\n\n    \n11:00AM\nE\nMore making plots with `ggplot2`\n\n\n\n\n\n\n    \n12:30PM\n\nLUNCH\n\n\n\n\n\n\n    \n1:30PM\nF\nJoining\n\n\n\nco2.csv\n\n\n    \n3:00PM\nG\nReshaping/Pivoting\n\n\n\n\n\n\n    \n4:30PM\n\nOffice hours / Catch up\n\n\n\n\n\n\n    Wed, Jan 22\n9:30AM\nH\nWorking with categorical data using `forcats`\n\n\n\n\n\n\n    \n11:00AM\nI\nWorking with dates using `lubridate`\n\n\n\n\n\n\n    \n12:30PM\n\nLUNCH\n\n\n\n\n\n\n    \n1:30PM\nJ\n\n\n\n\n\n\n\n    \n3:00PM\nK\n\n\n\n\n\n\n\n    \n4:30PM\n\nOffice hours / Catch up\n\n\n\n\n\n\n    Thurs, Jan 23\n9:30AM\nL\n\n\n\n\n\n\n\n    \n11:00AM\nM\n\n\n\n\n\n\n\n    \n12:30PM\n\nLUNCH\n\n\n\n\n\n\n    \n1:30PM\n\nAfternoon Off\n\n\n\n\n\n\n    Fri, Jan 24\n9:30AM\nN\nPretty Documents: tables, figures, cross-references, and bibliography\n\n\n\n\n\n\n    \n11:00AM\nO\nMaps\n\n\n\n\n\n\n    \n12:30PM\n\nLUNCH\n\n\n\n\n\n\n    \n1:30PM\nP\nPretty Documents: colors, themes, and scales\n\n\n\n\n\n\n    \n3:00PM\n\nOffice hours / Catch up\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n\n\nHelpful cheatsheets (also in other languages)\n\nRStudio\nQuarto documents\nMarkdown notation"
   },
   {
-    "objectID": "notes/N_Pretty_Documents_Notes.html",
-    "href": "notes/N_Pretty_Documents_Notes.html",
-    "title": "Notes N",
+    "objectID": "notes/Master_Cheatsheet.html",
+    "href": "notes/Master_Cheatsheet.html",
+    "title": "Master R Cheatsheet",
     "section": "",
-    "text": "```{r}\n#LOAD PACKAGES\nlibrary(tidyverse)\n```"
+    "text": "Quarto Guidelines"
   },
   {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#figure-captions",
-    "href": "notes/N_Pretty_Documents_Notes.html#figure-captions",
-    "title": "Notes N",
-    "section": "Figure Captions",
-    "text": "Figure Captions\nWhen we include figures: - we should have a figure caption (some text describing the figure) - we should have a label for the figure. Typically, we give a figure a descriptive figure label. - The chunk label is used to generate the file name of the graphic on disk, so naming your chunks makes it much easier to pick out plots and reuse in other circumstances (e.g., if you want to quickly drop a single plot into an email). - When we render Quarto will automatically go through and number the figures in order.\n\n```{r}\n#| label: fig-one-chart\n#| fig-cap: \"One Chart - Cars\"\n\nplot(cars)\n```\n\n\n\n\nFigure 1: One Chart - Cars\n\n\n\n\nYou can cross-reference a figure in the text by typing referencing @fig-label. You can type @fig-one-chart for it to replace with Figure 1.\nEx: There is a positive linear relationship between speed and distance shown in Figure 1.\nYou can also customize figure sizing with fig-width, fig-height, fig-asp, out-width and out-height."
+    "objectID": "notes/Master_Cheatsheet.html#tutorial-links",
+    "href": "notes/Master_Cheatsheet.html#tutorial-links",
+    "title": "Master R Cheatsheet",
+    "section": "",
+    "text": "Quarto Guidelines"
   },
   {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
-    "href": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
-    "title": "Notes N",
-    "section": "Two graphs side-by-side?",
-    "text": "Two graphs side-by-side?\n\n```{r}\n#| label: fig-charts\n#| fig-cap: \"Two Charts\"\n#| fig-subcap:\n#|   - \"Cars\"\n#|   - \"Pressure\"\n#| layout-ncol: 2\n\nplot(cars)\nplot(pressure)\n```\n\n\n\n\n\n\n\n(a) Cars\n\n\n\n\n\n\n\n(b) Pressure\n\n\n\n\nFigure 2: Two Charts"
+    "objectID": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "href": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "title": "Master R Cheatsheet",
+    "section": "IDE Cheatsheets",
+    "text": "IDE Cheatsheets\nChanging language in R Studio to English\n\n#Sys.setenv(LANG = \"en\")"
   },
   {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
-    "href": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
-    "title": "Notes N",
-    "section": "Referencing Tables in Quarto",
-    "text": "Referencing Tables in Quarto\nMake tables referenceable within the text, including computational tables, by using a tbl- prefix in labels.\n\n```{r}\n#| label: tbl-cars\n#| tbl-cap: \"Cars\"\n\ncars %&gt;% \n  head() %&gt;% \n  kbl()\n```\n\n\n\nTable 1: Cars\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\n\nThe first few rows of the cars dataset can be seen in Table 1 (referenced using @tbl-cars)"
+    "objectID": "notes/Master_Cheatsheet.html#shortcuts",
+    "href": "notes/Master_Cheatsheet.html#shortcuts",
+    "title": "Master R Cheatsheet",
+    "section": "Shortcuts",
+    "text": "Shortcuts\n\n%&gt;%\n\nMac: Cmd + Shift + m\nPC: Ctrl + Shift + m\n\nR chunk\n\nMac: Option + Cmd + i\nPC: Ctrl + Alt + i\n\n&lt;-\n\nMac: Option + -\nPC: Alt + -\n\n\n\nEqual signs\n\n= : assigning values/characters to an object (sometimes replaces &lt;-)\n== : logical expression -Ex: filter(species == “Adelie”)\n\n\n\n\n\n\n\nTidyverse\n\n\n\nA %&gt;% is needed to link functions\n\n\nExample: If the pipe (%&gt;%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object ‘Species’ not found.\n\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa &lt;- iris %&gt;% \n  select(Species, Petal.Length) %&gt;% \n  filter(Species == \"setosa\")"
+  },
+  {
+    "objectID": "notes/C_Aggregating_Notes.html",
+    "href": "notes/C_Aggregating_Notes.html",
+    "title": "Notes C",
+    "section": "",
+    "text": "#LOAD PACKAGES \nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "notes/C_Aggregating_Notes.html#multiple-groups",
+    "href": "notes/C_Aggregating_Notes.html#multiple-groups",
+    "title": "Notes C",
+    "section": "Multiple Groups",
+    "text": "Multiple Groups\n\npenguins %&gt;%\n  group_by(species, sex) %&gt;%\n  summarise(average_bill_lenth = mean(bill_length_mm), \n            average_bill_depth = mean(bill_depth_mm))\n\n# A tibble: 6 × 4\n# Groups:   species [3]\n  species   sex    average_bill_lenth average_bill_depth\n  &lt;fct&gt;     &lt;fct&gt;               &lt;dbl&gt;              &lt;dbl&gt;\n1 Adelie    female               37.3               17.6\n2 Adelie    male                 40.4               19.1\n3 Chinstrap female               46.6               17.6\n4 Chinstrap male                 51.1               19.3\n5 Gentoo    female               45.6               14.2\n6 Gentoo    male                 49.5               15.7"
   },
   {
     "objectID": "notes/E_ggplot2_Notes.html",
@@ -469,18 +483,60 @@
     "text": "#load packages\nlibrary(tidyverse)\nlibrary(lubridate)\n\n\n#load data\npower &lt;- read.csv(\"../data/power.csv\")\n\n\nDate Formats are IMPORTANT\n\n# Time Series when Date is still a \"chr\" value\nggplot(power, aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"Date not in date format (still chr)\")\n# Transform Date to Date Format\npower &lt;- power %&gt;% \n  mutate(Date = mdy_hm(Date))\n\n#Recreate the Time Series\nggplot(power, aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"Date in Date Format\")\n\n\n\n\n\n\n\n\n\n\n\n\n\nShould we summarize the data? How?\n\n#No summary\npower %&gt;% \n  ggplot(aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"By minute: no summarizing\")\npower %&gt;% \n  mutate(Date_round = floor_date(Date, unit=\"day\")) %&gt;% \n  ggplot(aes(x=Date_round, y=power_kW)) +\n  geom_point() + \n  ggtitle(\"By date: all minute data kept (points) :(\")\npower %&gt;% \n  mutate(Date_round = floor_date(Date, unit=\"day\")) %&gt;% \n  ggplot(aes(x=Date_round, y=power_kW)) +\n  geom_line() + \n  ggtitle(\"By date: all minute data kept (lines) :(\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOver what time period should we summarize?\n\n# Keep in Minutes\npower %&gt;% \n  ggplot(aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"By minute\")\n# Sum by Hour\npower %&gt;% \n  mutate(Year = year(Date), Month = month(Date), Day = day(Date), Hour=hour(Date)) %&gt;% \n  group_by(Year, Month, Day, Hour) %&gt;% \n  summarize(Total_power_kw = sum(power_kW)) %&gt;% \n  mutate(Date_round = make_datetime(year=Year, month=Month, day=Day, hour=Hour)) %&gt;% \n  ggplot(aes(x=Date_round, y=Total_power_kw)) +\n  geom_line() + \n  ggtitle(\"By hour: summarize by adding\")\n# Sum by Day\npower %&gt;% \n  mutate(Year = year(Date), Month = month(Date), Day = day(Date)) %&gt;% \n  group_by(Year, Month, Day) %&gt;% \n  summarize(Total_power_kw = sum(power_kW)) %&gt;% \n  mutate(Date_round = make_date(year=Year, month=Month, day =Day)) %&gt;% \n  ggplot(aes(x=Date_round, y=Total_power_kw)) +\n  geom_line() + \n  ggtitle(\"By date: summarize by adding\")"
   },
   {
-    "objectID": "notes/C_Aggregating_Notes.html",
-    "href": "notes/C_Aggregating_Notes.html",
-    "title": "Notes C",
+    "objectID": "notes/A_Intro_Notes.html",
+    "href": "notes/A_Intro_Notes.html",
+    "title": "Notes A",
     "section": "",
-    "text": "#LOAD PACKAGES \nlibrary(tidyverse)"
+    "text": "Tip\n\n\n\nA comprehensive list of markdown syntax can be found at https://quarto.org/docs/authoring/markdown-basics.html."
   },
   {
-    "objectID": "notes/C_Aggregating_Notes.html#multiple-groups",
-    "href": "notes/C_Aggregating_Notes.html#multiple-groups",
-    "title": "Notes C",
-    "section": "Multiple Groups",
-    "text": "Multiple Groups\n\npenguins %&gt;%\n  group_by(species, sex) %&gt;%\n  summarise(average_bill_lenth = mean(bill_length_mm), \n            average_bill_depth = mean(bill_depth_mm))\n\n# A tibble: 6 × 4\n# Groups:   species [3]\n  species   sex    average_bill_lenth average_bill_depth\n  &lt;fct&gt;     &lt;fct&gt;               &lt;dbl&gt;              &lt;dbl&gt;\n1 Adelie    female               37.3               17.6\n2 Adelie    male                 40.4               19.1\n3 Chinstrap female               46.6               17.6\n4 Chinstrap male                 51.1               19.3\n5 Gentoo    female               45.6               14.2\n6 Gentoo    male                 49.5               15.7"
+    "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "title": "Notes A",
+    "section": "Centered and large equations",
+    "text": "Centered and large equations\nType in the plain text section:\n$$y=\\frac{x^2}{SE(x^2)} $$\nDisplays as:\n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-equations",
+    "href": "notes/A_Intro_Notes.html#inline-equations",
+    "title": "Notes A",
+    "section": "Inline equations",
+    "text": "Inline equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-code",
+    "href": "notes/A_Intro_Notes.html#inline-code",
+    "title": "Notes A",
+    "section": "Inline code",
+    "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html",
+    "href": "notes/N_Pretty_Documents_Notes.html",
+    "title": "Notes N",
+    "section": "",
+    "text": "```{r}\n#LOAD PACKAGES\nlibrary(tidyverse)\n```"
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html#figure-captions",
+    "href": "notes/N_Pretty_Documents_Notes.html#figure-captions",
+    "title": "Notes N",
+    "section": "Figure Captions",
+    "text": "Figure Captions\nWhen we include figures: - we should have a figure caption (some text describing the figure) - we should have a label for the figure. Typically, we give a figure a descriptive figure label. - The chunk label is used to generate the file name of the graphic on disk, so naming your chunks makes it much easier to pick out plots and reuse in other circumstances (e.g., if you want to quickly drop a single plot into an email). - When we render Quarto will automatically go through and number the figures in order.\n\n```{r}\n#| label: fig-one-chart\n#| fig-cap: \"One Chart - Cars\"\n\nplot(cars)\n```\n\n\n\n\nFigure 1: One Chart - Cars\n\n\n\n\nYou can cross-reference a figure in the text by typing referencing @fig-label. You can type @fig-one-chart for it to replace with Figure 1.\nEx: There is a positive linear relationship between speed and distance shown in Figure 1.\nYou can also customize figure sizing with fig-width, fig-height, fig-asp, out-width and out-height."
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
+    "href": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
+    "title": "Notes N",
+    "section": "Two graphs side-by-side?",
+    "text": "Two graphs side-by-side?\n\n```{r}\n#| label: fig-charts\n#| fig-cap: \"Two Charts\"\n#| fig-subcap:\n#|   - \"Cars\"\n#|   - \"Pressure\"\n#| layout-ncol: 2\n\nplot(cars)\nplot(pressure)\n```\n\n\n\n\n\n\n\n(a) Cars\n\n\n\n\n\n\n\n(b) Pressure\n\n\n\n\nFigure 2: Two Charts"
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
+    "href": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
+    "title": "Notes N",
+    "section": "Referencing Tables in Quarto",
+    "text": "Referencing Tables in Quarto\nMake tables referenceable within the text, including computational tables, by using a tbl- prefix in labels.\n\n```{r}\n#| label: tbl-cars\n#| tbl-cap: \"Cars\"\n\ncars %&gt;% \n  head() %&gt;% \n  kbl()\n```\n\n\n\nTable 1: Cars\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\n\nThe first few rows of the cars dataset can be seen in Table 1 (referenced using @tbl-cars)"
   },
   {
     "objectID": "notes/P_Colors_Themes_Scales_Notes.html",
@@ -537,68 +593,5 @@
     "title": "Notes P",
     "section": "customizing axes breaks",
     "text": "customizing axes breaks\n\nsp\nsp + \n  scale_y_continuous(breaks=c(2,3,4,5))"
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html",
-    "href": "notes/A_Intro_Notes.html",
-    "title": "Notes A",
-    "section": "",
-    "text": "Tip\n\n\n\nA comprehensive list of markdown syntax can be found at https://quarto.org/docs/authoring/markdown-basics.html."
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
-    "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
-    "title": "Notes A",
-    "section": "Centered and large equations",
-    "text": "Centered and large equations\nType in the plain text section:\n$$y=\\frac{x^2}{SE(x^2)} $$\nDisplays as:\n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html#in-line-equations",
-    "href": "notes/A_Intro_Notes.html#in-line-equations",
-    "title": "Notes A",
-    "section": "In line equations",
-    "text": "In line equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html#inline-code",
-    "href": "notes/A_Intro_Notes.html#inline-code",
-    "title": "Notes A",
-    "section": "Inline code",
-    "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
-  },
-  {
-    "objectID": "notes/Master_Cheatsheet.html",
-    "href": "notes/Master_Cheatsheet.html",
-    "title": "Master R Cheatsheet",
-    "section": "",
-    "text": "Quarto Guidelines"
-  },
-  {
-    "objectID": "notes/Master_Cheatsheet.html#tutorial-links",
-    "href": "notes/Master_Cheatsheet.html#tutorial-links",
-    "title": "Master R Cheatsheet",
-    "section": "",
-    "text": "Quarto Guidelines"
-  },
-  {
-    "objectID": "notes/Master_Cheatsheet.html#ide-cheatsheets",
-    "href": "notes/Master_Cheatsheet.html#ide-cheatsheets",
-    "title": "Master R Cheatsheet",
-    "section": "IDE Cheatsheets",
-    "text": "IDE Cheatsheets\nChanging language in R Studio to English\n\n#Sys.setenv(LANG = \"en\")"
-  },
-  {
-    "objectID": "notes/Master_Cheatsheet.html#shortcuts",
-    "href": "notes/Master_Cheatsheet.html#shortcuts",
-    "title": "Master R Cheatsheet",
-    "section": "Shortcuts",
-    "text": "Shortcuts\n\n%&gt;%\n\nMac: Cmd + Shift + m\nPC: Ctrl + Shift + m\n\nR chunk\n\nMac: Option + Cmd + i\nPC: Ctrl + Alt + i\n\n&lt;-\n\nMac: Option + -\nPC: Alt + -\n\n\n\nEqual signs\n\n= : assigning values/characters to an object (sometimes replaces &lt;-)\n== : logical expression -Ex: filter(species == “Adelie”)\n\n\n\n\n\n\n\nTidyverse\n\n\n\nA %&gt;% is needed to link functions\n\n\nExample: If the pipe (%&gt;%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object ‘Species’ not found.\n\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa &lt;- iris %&gt;% \n  select(Species, Petal.Length) %&gt;% \n  filter(Species == \"setosa\")"
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html#inline-equations",
-    "href": "notes/A_Intro_Notes.html#inline-equations",
-    "title": "Notes A",
-    "section": "Inline equations",
-    "text": "Inline equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
   }
 ]
