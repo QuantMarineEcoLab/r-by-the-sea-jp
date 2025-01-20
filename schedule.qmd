@@ -126,3 +126,10 @@ d |>
              Topic ~ px(250)) 
 ```
 
+
+# Helpful cheatsheets (also in [other languages](https://posit.co/resources/cheatsheets/?type=translations/))
+
+- [RStudio](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*o2kr66*_ga*MTIxNTgzNTUxMy4xNzM3MTE0MTc3*_ga_2C0WZ1JHG0*MTczNzMzOTI3Ny4zLjEuMTczNzMzOTM0My4wLjAuMA..)
+- [Quarto documents](https://rstudio.github.io/cheatsheets/html/quarto.html?_gl=1*1xisfkw*_ga*MTIxNTgzNTUxMy4xNzM3MTE0MTc3*_ga_2C0WZ1JHG0*MTczNzMzOTI3Ny4zLjEuMTczNzMzOTM0My4wLjAuMA..)
+- [Markdown notation](https://www.markdownguide.org/cheat-sheet/)
+
