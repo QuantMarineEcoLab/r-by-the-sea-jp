@@ -1,0 +1,54 @@
+---
+title: "Master R Cheatsheet"
+format:
+  html: 
+    theme: flatly
+editor: visual
+---
+
+## Tutorial Links
+
+[Quarto Guidelines](https://quarto.org/docs/guide/)
+
+## IDE Cheatsheets
+
+Changing language in R Studio to English
+
+```{r}
+#Sys.setenv(LANG = "en")
+```
+
+## Shortcuts
+
+- %>%
+    - Mac: Cmd + Shift + m
+    - PC: Ctrl + Shift + m
+- R chunk
+    - Mac: Option + Cmd + i
+    - PC: Ctrl + Alt + i
+- <- 
+    - Mac: Option + -
+    - PC: Alt + -
+
+
+### Equal signs
+
+- = : assigning values/characters to an object (sometimes replaces <-)
+- == : logical expression 
+      -Ex: filter(species == "Adelie")
+    
+::: {.callout-warning .fragment title="Tidyverse" style="font-size: 70%"}
+A %>% is needed to link functions
+:::
+
+Example: If the pipe (%>%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object 'Species' not found.
+```{r, message=FALSE}
+library(tidyverse)
+data("iris")
+
+setosa <- iris %>% 
+  select(Species, Petal.Length) %>% 
+  filter(Species == "setosa")
+  
+```
+
