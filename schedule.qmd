@@ -30,7 +30,7 @@ library(tidyverse)
 library(fontawesome)
 gs4_deauth()
 d <- read_sheet("https://docs.google.com/spreadsheets/d/13ANTSS5txUPlKCsSvw29UOo5jVPhwdper3I9QTbnrto/edit?usp=sharing", sheet = "Sheet1") %>% 
-  select(-Lead) %>% 
+  select(-Lead, -Assist) %>% 
   rename(Exercise = Homework)
 ```
 
