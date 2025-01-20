@@ -563,7 +563,7 @@
     "objectID": "notes/A_Intro_Notes.html#inline-code",
     "href": "notes/A_Intro_Notes.html#inline-code",
     "title": "Notes A",
-    "section": "inline code",
-    "text": "inline code\nThis is a sentence. The value of x is 11."
+    "section": "Inline code",
+    "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
   }
 ]

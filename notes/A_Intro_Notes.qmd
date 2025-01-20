@@ -125,15 +125,16 @@ Displays as:
 
 We take and calculate the standard error $SE(x_1)$.
 
-## inline code
+## Inline code
 
-``` markdown
+
 Type in the plain text section: 
 
-This is a sentence. The value of x is \`r x\`.
+```{r, results='asis', echo=FALSE}
+cat("This is a sentence. The value of x is `` `r x` ``")
+```
 
 Displays as: 
-```
 
 This is a sentence. The value of x is `r x`.
 
