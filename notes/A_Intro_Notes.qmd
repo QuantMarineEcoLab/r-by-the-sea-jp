@@ -6,76 +6,89 @@ format:
   html:
     toc: true
     code-overflow: wrap
-    code-fold: true
     embed-resources: true
 execute: 
   message: FALSE
   warning: FALSE
-  echo: FALSE
 ---
 
 # In-lab Examples
 
-+--------------------------------------------------------+--------------------------------------------------------+
-| Markdown Syntax                                        | Output                                                 |
-+========================================================+========================================================+
-| ``` markdown                                           | *italics*                                              |
-| *italics*                                              |                                                        |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| ``` markdown                                           | **bold**                                               |
-| **bold**                                               |                                                        |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| ``` markdown                                           | ***bold italics***                                     |
-| ***bold italics***                                     |                                                        |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| ``` markdown                                           | -   chai tea                                           |
-| - chai tea                                             | -   green tea                                          |
-| - green tea                                            | -   earl grey tea                                      |
-| - earl grey tea                                        |                                                        |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| ``` markdown                                           |                                                        |
-| [this is the text that will display](www.google.com)   | [this is the text that will display](www.google.com)   |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-| ``` markdown                                           |                                                        |
-| ![a caption here](jellyfish.jpg)                       | ![a caption here](jellyfish.jpg)                       |
-| ```                                                    |                                                        |
-+--------------------------------------------------------+--------------------------------------------------------+
-
++------------------------------------------------------+------------------------------------------------------+
+| Markdown Syntax                                      | Output                                               |
++======================================================+======================================================+
+| ``` markdown                                         | *italics*                                            |
+| *italics*                                            |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
+| ``` markdown                                         | **bold**                                             |
+| **bold**                                             |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
+| ``` markdown                                         | ***bold italics***                                   |
+| ***bold italics***                                   |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
+| ``` markdown                                         | -   chai tea                                         |
+| - chai tea                                           | -   green tea                                        |
+| - green tea                                          | -   earl grey tea                                    |
+| - earl grey tea                                      |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
+| ``` markdown                                         | [this is the text that will display](www.google.com) |
+| [this is the text that will display](www.google.com) |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
+| ``` markdown                                         | ![a caption here](../images/jellyfish.jpg)           | 
+| ![a caption here](jellyfish.jpg)                     |                                                      |
+| ```                                                  |                                                      |
++------------------------------------------------------+------------------------------------------------------+
 
 ------------------------------------------------------------------------
 
-R chunks
+# R chunks
 
-CMD + OPTION + I Ctrl + ALT + I
+To create a R chunk:
+
+- use the +C green buttom in the top menu
+- Mac Shortcut: CMD + OPTION + I 
+- PC shortcut: Ctrl + ALT + I
+- manually type out ```{r}... etc. 
+
+
+
+Calculations and R code goes inside chunks. 
 
 ```{r}
 2+2
 ```
 
-create an object
+Commenting inside an R chunk: 
 
 ```{r}
-# this is a comment
+# anything behind a "#" in an R chunk is a comment
+```
 
+Assigning a value to an object: 
+
+```{r}
 # this takes the value of 20 and assigns it to the object x
 x <-11
 ```
 
-```{r}
-# Shortcut for arrow is option + - (Mac) or Alt + - (PC)
+Operations with objects: 
 
+```{r}
 # take the object x, multiply by 2, and spit out the answer
 y <- x*2
 y
 ```
 
+Creating a vector: 
+
 ```{r}
 z <- c(1.778, 1.53, 1.58, 1.56)
+# c stands for concatenate -- a fancy computer science word for "put together"
 
 z_inches <- z*39.701
 
@@ -89,21 +102,38 @@ sd(z)
 ## Centered and large equations
 
 ``` markdown
+Type in the plain text section: 
+
 $$y=\frac{x^2}{SE(x^2)} $$
+
+Displays as: 
 ```
 
 $$y=\frac{x^2}{SE(x^2)} $$
+
+*Hint: Some people like to use the visual editor to insert equations*
 
 ## In line equations
 
 ``` markdown
-We take and calculate the standard error $SE(x_1)$. 
+Type in the plain text section: 
+
+We take and calculate the standard error $SE(x_1)$.
+
+Displays as: 
 ```
 
 We take and calculate the standard error $SE(x_1)$.
 
-# inline code
+## inline code
+
+``` markdown
+Type in the plain text section: 
+
+This is a sentence. The value of x is \`r x\`.
+
+Displays as: 
+```
 
 This is a sentence. The value of x is `r x`.
 
-commenting code

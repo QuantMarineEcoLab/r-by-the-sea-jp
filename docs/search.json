@@ -179,7 +179,7 @@
     "href": "qmdfiles/B_Wrangling_Homework.html",
     "title": "Homework B",
     "section": "",
-    "text": "Code\n#make sure the package is installed on your computer or this won't run! \nlibrary(tidyverse)\n\n\n\n\nCode\n#This assignment concerns the gapminder dataset\n# First, Download gapminder from the menu at the right ---&gt; \nlibrary(gapminder)\ndata(gapminder) #this code loads the gapminder data so you can view it in your environment. Click on the word gapminder to be able see it \n\n\n\nHow many rows and columns does this dataset have?\nWhat are the names of the 6 columns?\nCreate a dataset called gapminder2007 which only contains information for each of the countries in 2007.\n\n\nIf you instead try to choose the subset with year equal to 2005, something will be weird. Try it and explain what happens and why.\n\n\nPrint out the rows of data corresponding to the US in 2007.\n\n\nIn the above problem, you would have put quotes around United States but not around 2007. Explain why.\nWhich country had a higher life expectancy per capita in 1977: US or Japan?\n\n\nWhat is the lowest life expectancy in the gapminder dataset? Which country and year does it correspond to?\n\n\nFor the year 2007, print out a list of the top 10 countries with the highest life expectancy. They should be ordered from highest life expectancy to 10th highest life expectancy. You should only display the countries name and life expectancy (and no other data)."
+    "text": "Code\n#make sure the package is installed on your computer or this won't run! \nlibrary(tidyverse)\n\n\n\n\nCode\n#This assignment concerns the gapminder dataset\n# First, Download gapminder from the menu at the right ---&gt; \nlibrary(gapminder)\ndata(gapminder) #this code loads the gapminder data so you can view it in your environment. Click on the word gapminder to be able see it \n\n\n\nHow many rows and columns does this dataset have?\nWhat are the names of the 6 columns?\nCreate a dataset called gapminder2007 which only contains information for each of the countries in 2007.\n\n\nIf you instead try to choose the subset with year equal to 2005, something will be weird. Try it and explain what happens and why.\n\n\nPrint out the rows of data corresponding to the US in 2007.\n\n\nIn the above problem, you would have put quotes around United States but not around 2007. Explain why.\nWhich country had a higher life expectancy in 1977: US or Japan?\n\n\nWhat is the lowest life expectancy in the gapminder dataset? Which country and year does it correspond to?\n\n\nFor the year 2007, print out a list of the top 10 countries with the highest life expectancy. They should be ordered from highest life expectancy to 10th highest life expectancy. You should only display the countries name and life expectancy (and no other data)."
   },
   {
     "objectID": "qmdfiles/F_Joining_Notes_Blank.html",
@@ -543,20 +543,27 @@
     "href": "notes/A_Intro_Notes.html",
     "title": "Notes A",
     "section": "",
-    "text": "Markdown Syntax\nOutput\n\n\n\n\n*italics*\nitalics\n\n\n**bold**\nbold\n\n\n***bold italics***\nbold italics\n\n\n- chai tea\n- green tea\n- earl grey tea\n\nchai tea\ngreen tea\nearl grey tea\n\n\n\n[this is the text that will display](www.google.com)\nthis is the text that will display\n\n\n![a caption here](jellyfish.jpg)\n\n\n\n\n\nR chunks\nCMD + OPTION + I Ctrl + ALT + I\n\n\n[1] 4\n\n\ncreate an object\n\n\n[1] 22\n\n\n\n\n[1] 1.612\n\n\n[1] 0.1125581"
+    "text": "Markdown Syntax\nOutput\n\n\n\n\n*italics*\nitalics\n\n\n**bold**\nbold\n\n\n***bold italics***\nbold italics\n\n\n- chai tea\n- green tea\n- earl grey tea\n\nchai tea\ngreen tea\nearl grey tea\n\n\n\n[this is the text that will display](www.google.com)\nthis is the text that will display\n\n\n![a caption here](jellyfish.jpg)"
   },
   {
     "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
     "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
     "title": "Notes A",
     "section": "Centered and large equations",
-    "text": "Centered and large equations\n$$y=\\frac{x^2}{SE(x^2)} $$\n\\[y=\\frac{x^2}{SE(x^2)} \\]"
+    "text": "Centered and large equations\nType in the plain text section: \n\n$$y=\\frac{x^2}{SE(x^2)} $$\n\nDisplays as: \n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
   },
   {
     "objectID": "notes/A_Intro_Notes.html#in-line-equations",
     "href": "notes/A_Intro_Notes.html#in-line-equations",
     "title": "Notes A",
     "section": "In line equations",
-    "text": "In line equations\nWe take and calculate the standard error $SE(x_1)$. \nWe take and calculate the standard error \\(SE(x_1)\\)."
+    "text": "In line equations\nType in the plain text section: \n\nWe take and calculate the standard error $SE(x_1)$.\n\nDisplays as: \nWe take and calculate the standard error \\(SE(x_1)\\)."
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-code",
+    "href": "notes/A_Intro_Notes.html#inline-code",
+    "title": "Notes A",
+    "section": "inline code",
+    "text": "inline code\nThis is a sentence. The value of x is 11."
   }
 ]
