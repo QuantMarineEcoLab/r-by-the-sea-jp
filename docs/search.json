@@ -242,7 +242,7 @@
     "href": "qmdfiles/I_Lubridate_Notes_Blank.html",
     "title": "Notes D",
     "section": "",
-    "text": "#LOAD PACKAGES \nlibrary(tidyverse)\nlibrary(lubridate)\n\n\nDate Formats\nThink of how many different formats you know of to list today’s date:\nYikes!\n\n\nDate, Time, and Datetime\nDate/time data are data that conveys information about, you guessed it, date and/or time! There are three relevant data types when we talk about date/time data:\n\nDate - only has the date (e.g. 2020-05-15)\nTime - only has the time (e.g. 20:45:00)\nDatetime - has both the date and time (e.g. 2020-05-15 20:45:00)\n\n\n\nStandard Date Format\nThe ymd() function transforms data in all kinds of different formats into a standardized date format displaying year, then month, then day.\n\nymd(\"06 02 04\")\n\n[1] \"2006-02-04\"\n\nymd(\"06/02/04\")\n\n[1] \"2006-02-04\"\n\nymd(\"20060204\")  # works as well\n\n[1] \"2006-02-04\"\n\nymd(\"2006 2 4\")\n\n[1] \"2006-02-04\"\n\nymd(060204)  # works with numbers\n\n[1] \"2006-02-04\"\n\n\nmdy() (month day year) and dmy() (day month year) formats also exist.\n\nymd_hms(\"2020-04-01 10:30:13\")\n\n[1] \"2020-04-01 10:30:13 UTC\"\n\nymd_hm(\"2020/04/01 10.30\")\n\n[1] \"2020-04-01 10:30:00 UTC\"\n\n\n\n\nMaking Dates From Values\n\n#make_date\n\n\n#make_datetime\n\n\n\nPortal Data\n\n#LOAD DATA\n#Recall the Portal Dataset\nportal_rodent &lt;- read.csv(\"https://github.com/weecology/PortalData/raw/main/Rodents/Portal_rodent.csv\")\n\nUnfortunately, because the information about datetime is divided up into different columns, R does not recognize it as date/time data. What we need to do is combine and convert all of these columns into datetime. To do this, we can use the function make_datetime()\n\n\nRounding Times\n\nt &lt;- ymd_hms(\"2022-11-15 00:08:30\")\n\n\n#Round\nround_date(t, unit = \"second\") #no change\n\n[1] \"2022-11-15 00:08:30 UTC\"\n\nround_date(t, unit = \"minute\")\n\n[1] \"2022-11-15 00:09:00 UTC\"\n\nround_date(t, unit = \"hour\")\n\n[1] \"2022-11-15 UTC\"\n\nround_date(t, unit = \"day\")\n\n[1] \"2022-11-15 UTC\"\n\n\n\n#Force Round UP\nceiling_date(t, unit = \"minute\")\n\n[1] \"2022-11-15 00:09:00 UTC\"\n\nceiling_date(t, unit = \"hour\")\n\n[1] \"2022-11-15 01:00:00 UTC\"\n\n\n\n#Force Round DOWN\nfloor_date(t, unit = \"minute\")\n\n[1] \"2022-11-15 00:08:00 UTC\"\n\nfloor_date(t, unit = \"hour\")\n\n[1] \"2022-11-15 UTC\""
+    "text": "#LOAD PACKAGES \nlibrary(tidyverse)\nlibrary(lubridate)"
   },
   {
     "objectID": "qmdfiles/H_forcats_Homework.html",
@@ -719,5 +719,12 @@
     "title": "STAT 118: Notes L",
     "section": "Using OpenStreet Maps",
     "text": "Using OpenStreet Maps\nA simple map of Tohoku University:\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  \n  # Add default OpenStreetMap map tiles\n  addMarkers(lng=140.830833, lat=38.255528, popup=\"Tohoku University Faculty of Agriculture\")\n\n\n\n\n\nA map of global landings:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;% # Add default OpenStreetMap map tiles\n  addMarkers(lng=~longitude, lat=~latitude, popup=~port)\n\n\n\n\n\nor using Circle Markers:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;%# Add default OpenStreetMap map tiles\n  addCircleMarkers(lng=~longitude, lat=~latitude, popup=~port, radius = ~landings_metrictons/100000, stroke =FALSE, fillOpacity =0.5)"
+  },
+  {
+    "objectID": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
+    "href": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
+    "title": "Notes D",
+    "section": "Formating Madagascar date_time column",
+    "text": "Formating Madagascar date_time column\nWhy function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., ymd_hms)\n#Exercise 1\n\nLoad in the madagascar data set\n\n\nMake a plot of the water temperature over time. Hint: use geom_pointin ggplot2\n\n\nLook at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?\n\n\nChange the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again."
   }
 ]

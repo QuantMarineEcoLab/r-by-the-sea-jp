@@ -4790,7 +4790,11 @@ color: #000;
   <ul>
   <li><a href="#date-formats" id="toc-date-formats" class="nav-link active" data-scroll-target="#date-formats">Date Formats</a></li>
   <li><a href="#date-time-and-datetime" id="toc-date-time-and-datetime" class="nav-link" data-scroll-target="#date-time-and-datetime">Date, Time, and Datetime</a></li>
-  <li><a href="#standard-date-format" id="toc-standard-date-format" class="nav-link" data-scroll-target="#standard-date-format">Standard Date Format</a></li>
+  <li><a href="#standard-date-format" id="toc-standard-date-format" class="nav-link" data-scroll-target="#standard-date-format">Standard Date Format</a>
+  <ul class="collapse">
+  <li><a href="#formating-madagascar-date_time-column" id="toc-formating-madagascar-date_time-column" class="nav-link" data-scroll-target="#formating-madagascar-date_time-column">Formating Madagascar date_time column</a></li>
+  </ul></li>
+  <li><a href="#changing-time-zones" id="toc-changing-time-zones" class="nav-link" data-scroll-target="#changing-time-zones">Changing time zones</a></li>
   <li><a href="#making-dates-from-values" id="toc-making-dates-from-values" class="nav-link" data-scroll-target="#making-dates-from-values">Making Dates From Values</a></li>
   <li><a href="#portal-data" id="toc-portal-data" class="nav-link" data-scroll-target="#portal-data">Portal Data</a></li>
   <li><a href="#rounding-times" id="toc-rounding-times" class="nav-link" data-scroll-target="#rounding-times">Rounding Times</a></li>
@@ -4875,14 +4879,36 @@ color: #000;
 <pre><code>[1] &quot;2020-04-01 10:30:00 UTC&quot;</code></pre>
 </div>
 </div>
+<section id="formating-madagascar-date_time-column" class="level2">
+<h2 data-anchor-id="formating-madagascar-date_time-column">Formating Madagascar date_time column</h2>
+<p>Why function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., <code>ymd_hms</code>)</p>
+<p>#Exercise 1</p>
+<ol type="1">
+<li>Load in the madagascar data set</li>
+</ol>
+<ol start="2" type="1">
+<li>Make a plot of the water temperature over time. Hint: use <code>geom_point</code>in <code>ggplot2</code></li>
+</ol>
+<ol start="3" type="1">
+<li>Look at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?</li>
+</ol>
+<ol start="4" type="1">
+<li>Change the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again.</li>
+</ol>
+</section>
+</section>
+<section id="changing-time-zones" class="level1">
+<h1>Changing time zones</h1>
+<p>To get a list of the available time zones, we can use <code>OlsonNames()</code></p>
+<p>To check time zones, we can use <code>tz</code>. Check the timezone of the date_time column. What is the time zone?</p>
+<p>Let’s change the time zone to Africa/Nairobi. We can use <code>mutate</code> to add a new column or overwrite a column <code>with_tz</code> returns a date-time as it would appear in a different time zone. Change the time zone. After doing so, check the time zone.</p>
 </section>
 <section id="making-dates-from-values" class="level1">
 <h1>Making Dates From Values</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#make_date</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co">#make_datetime</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co">#make_datetime</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="portal-data" class="level1">
