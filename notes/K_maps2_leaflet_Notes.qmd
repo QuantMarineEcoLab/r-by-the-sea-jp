@@ -1,0 +1,135 @@
+---
+title: 'STAT 118: Notes L'
+subtitle: 'Plotting Points on Maps'
+author: 'Andrew Villeneuve'
+institute: 'University of New Hampshire'
+format:
+  html: 
+    toc: TRUE
+    code-overflow: wrap
+    embed-resources: true
+bibliography: references.bib
+---
+
+```{r,message=F,warning=F}
+#LOAD packages
+library(sf)
+library(tidyverse)
+library(rnaturalearth)
+```
+
+```{r}
+#LOAD shapefiles
+#ne countries retrieves sf shapefiles for countries around the world
+world <- ne_countries(returnclass = "sf",scale="medium")
+class(world)
+```
+
+# More `sf` maps with points
+
+Let's make a global map which shows country borders.
+
+```{r}
+
+#basic map
+
+ggplot(data=world)+
+  geom_sf(fill = "ivory", color = "black")+
+  theme_bw()
+```
+
+We are going to visualize global fishing landings in 2012 from a UN FAO report (@huntington2015) that ranked the top 100 fishing ports by metric landings.
+
+The dataframe `ports` contains 8 variables:
+
+* `port` - Port name
+* `country` - Country of the port
+* `landings_metrictons` - Metric tonnage of landings in 2012
+* `latitude` - Port latitude
+* `longitude` - Port longitude
+* `demersal_perc` - Percentage of demersal species
+* `pelagic_perc` - Percentage of pelagic species
+* `shellfish_perc` - Percentage of shellfish species
+
+```{r}
+ports<-read.csv("landings.csv")
+
+
+#let's add our sites to our map
+world%>%
+ggplot() +
+  geom_sf(fill = "ivory", color = "black") +
+  theme_bw()+ 
+  geom_point(data=ports,aes(x=longitude,y=latitude))+
+  theme()
+```
+
+Just like in non-map ggplot, we can alter the aesthetics of the port points by another variable in our dataframe. Here, we will change the size of our points based on the weight of fisheries landings. 
+
+```{r}
+#size by number oflandings
+world%>%
+ggplot() +
+  geom_sf(fill = "gray", color = "black") +
+  theme_bw()+ 
+  geom_point(data=ports,aes(x=longitude,y=latitude,size=landings_metrictons),color="navy",alpha=0.5)+
+  labs(size="Landings (Metric Tons)",title="Global Port Landings, 2012")
+
+```
+
+We can further restrict the geographic scope of this map by first filtering our sf world shapefile to just show Japan's borders, and then to filter the `ports` dataframe to just show Japanese ports. 
+
+```{r}
+
+world%>%
+  filter(admin=="Japan")%>%
+  ggplot() +
+  geom_sf(fill = "gray", color = "black") +
+  theme_bw()+ 
+  geom_point(data=ports%>%filter(country=="Japan"),aes(x=longitude,y=latitude,size=landings_metrictons),color="navy",alpha=0.5)+
+  labs(size="Landings (Metric Tons)",title="Global Port Landings, 2012")
+  
+```
+
+
+# Leaflet
+
+Leaflet is one of the most popular open-source JavaScript libraries for interactive maps.
+
+```{r}
+library(leaflet)
+```
+
+You create a Leaflet map with these basic steps:
+
+1.  Create a map widget by calling leaflet().
+2.  Add layers (i.e., features) to the map by using layer functions (e.g. `addTiles`, `addMarkers`, `addPolygons`) to modify the map widget.
+3.  Repeat step 2 as desired.
+
+## Using OpenStreet Maps
+
+A simple map of Tohoku University:
+
+```{r}
+leaflet() %>%
+  addTiles() %>%  
+  # Add default OpenStreetMap map tiles
+  addMarkers(lng=140.830833, lat=38.255528, popup="Tohoku University Faculty of Agriculture")
+
+```
+
+A map of global landings:
+
+```{r}
+leaflet(data=ports) %>%
+  addTiles() %>% # Add default OpenStreetMap map tiles
+  addMarkers(lng=~longitude, lat=~latitude, popup=~port)
+```
+
+or using Circle Markers:
+
+```{r}
+leaflet(data=ports) %>%
+  addTiles() %>%# Add default OpenStreetMap map tiles
+  addCircleMarkers(lng=~longitude, lat=~latitude, popup=~port, radius = ~landings_metrictons/100000, stroke =FALSE, fillOpacity =0.5)
+```
