@@ -10,6 +10,8 @@ format:
 execute: 
   message: FALSE
   warning: FALSE
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
@@ -52,15 +54,60 @@ ymd_hms("2020-04-01 10:30:13")
 ymd_hm("2020/04/01 10.30")
 ```
 
+## Formating Madagascar date_time column
+
+Why function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., `ymd_hms`)
+
+
+#Exercise 1
+
+1. Load in the madagascar data set
+```{r}
+
+```
+
+2. Make a plot of the water temperature over time. Hint: use `geom_point`in `ggplot2`
+```{r}
+
+```
+
+3. Look at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?
+```{r}
+
+```
+
+4. Change the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again. 
+```{r}
+
+```
+
+
+
+# Changing time zones
+
+To get a list of the available time zones, we can use `OlsonNames()`
+
+To check time zones, we can use `tz`. Check the timezone of the date_time column. What is the time zone?
+```{r}
+
+```
+
+Let's change the time zone to Africa/Nairobi. 
+We can use `mutate` to add a new column or overwrite a column
+`with_tz` returns a date-time as it would appear in a different time zone. Change the time zone. After doing so, check the time zone. 
+```{r}
+
+```
+
+
 # Making Dates From Values
 
 ```{r}
 #make_date
 
-
 #make_datetime
-
 ```
+
 
 # Portal Data
 
@@ -75,8 +122,6 @@ Unfortunately, because the information about datetime is divided up into differe
 ```{r}
 
 ```
-
-
 
 # Rounding Times
 
