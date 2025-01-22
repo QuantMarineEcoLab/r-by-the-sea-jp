@@ -8,17 +8,19 @@ format:
     toc: TRUE
     code-overflow: wrap
     embed-resources: true
-bibliography: references.bib
 ---
 
 ```{r,message=F,warning=F}
+
 #LOAD packages
 library(sf)
 library(tidyverse)
 library(rnaturalearth)
+library(rnaturalearthdata)
 ```
 
 ```{r}
+
 #LOAD shapefiles
 #ne countries retrieves sf shapefiles for countries around the world
 world <- ne_countries(returnclass = "sf",scale="medium")
@@ -38,7 +40,7 @@ ggplot(data=world)+
   theme_bw()
 ```
 
-We are going to visualize global fishing landings in 2012 from a UN FAO report (@huntington2015) that ranked the top 100 fishing ports by metric landings.
+We are going to visualize global fishing landings in 2012 from a UN FAO report that ranked the top 100 fishing ports by metric landings.
 
 The dataframe `ports` contains 8 variables:
 
@@ -52,7 +54,8 @@ The dataframe `ports` contains 8 variables:
 * `shellfish_perc` - Percentage of shellfish species
 
 ```{r}
-ports<-read.csv("landings.csv")
+
+ports<-read.csv("../data/landings.csv")
 
 
 #let's add our sites to our map
@@ -67,6 +70,7 @@ ggplot() +
 Just like in non-map ggplot, we can alter the aesthetics of the port points by another variable in our dataframe. Here, we will change the size of our points based on the weight of fisheries landings. 
 
 ```{r}
+
 #size by number oflandings
 world%>%
 ggplot() +
