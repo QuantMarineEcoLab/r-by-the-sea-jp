@@ -1,6 +1,6 @@
 ---
-title: 'STAT 118: Notes L'
-subtitle: 'Plotting Points on Maps'
+title: 'STAT 118: Notes K'
+subtitle: 'Adding points to maps`'
 author: 'Andrew Villeneuve'
 institute: 'University of New Hampshire'
 format:
@@ -8,21 +8,20 @@ format:
     toc: TRUE
     code-overflow: wrap
     embed-resources: true
-bibliography: references.bib
 ---
 
 ```{r,message=F,warning=F}
 #LOAD packages
-library(sf)
-library(tidyverse)
-library(rnaturalearth)
+#library(sf)
+#library(tidyverse)
+#library(rnaturalearth)
 ```
 
 ```{r}
 #LOAD shapefiles
 #ne countries retrieves sf shapefiles for countries around the world
-world <- ne_countries(returnclass = "sf",scale="medium")
-class(world)
+#world <- ne_countries(returnclass = "sf",scale="medium")
+#class(world)
 ```
 
 # More `sf` maps with points
@@ -35,7 +34,7 @@ Let's make a global map which shows country borders.
 
 ```
 
-We are going to visualize global fishing landings in 2012 from a UN FAO report (@huntington2015) that ranked the top 100 fishing ports by metric landings.
+We are going to visualize global fishing landings in 2012 from a UN FAO report that ranked the top 100 fishing ports by metric landings.
 
 The dataframe `ports` contains 8 variables:
 
@@ -49,7 +48,7 @@ The dataframe `ports` contains 8 variables:
 * `shellfish_perc` - Percentage of shellfish species
 
 ```{r}
-ports<-read.csv("landings.csv")
+#ports<-read.csv("../data/landings.csv")
 
 
 #let's add our sites to our map
@@ -77,7 +76,7 @@ We can further restrict the geographic scope of this map by first filtering our 
 Leaflet is one of the most popular open-source JavaScript libraries for interactive maps.
 
 ```{r}
-library(leaflet)
+#library(leaflet)
 ```
 
 You create a Leaflet map with these basic steps:
@@ -91,10 +90,10 @@ You create a Leaflet map with these basic steps:
 A simple map of Tohoku University:
 
 ```{r}
-leaflet() %>%
-  addTiles() %>%  
-  # Add default OpenStreetMap map tiles
-  addMarkers(lng=140.830833, lat=38.255528, popup="Tohoku University Faculty of Agriculture")
+#leaflet() %>%
+#  addTiles() %>%  
+#  # Add default OpenStreetMap map tiles
+#  addMarkers(lng=140.830833, lat=38.255528, popup="Tohoku University Faculty of Agriculture")
 
 ```
 

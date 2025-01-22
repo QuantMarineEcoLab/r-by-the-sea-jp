@@ -1,5 +1,5 @@
 ---
-title: 'STAT 118: Notes K'
+title: 'STAT 118: Notes J'
 subtitle: 'Maps with `maps` and `sf`'
 author: 'Andrew Villeneuve'
 institute: 'University of New Hampshire'
