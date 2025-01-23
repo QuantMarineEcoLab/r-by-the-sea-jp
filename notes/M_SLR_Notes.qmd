@@ -1,5 +1,5 @@
 ---
-title: "Notes L"
+title: "Notes M"
 subtitle: "Exploratory Data Analysis & Simple Linear Regression"
 format:
   html:
@@ -151,7 +151,7 @@ kangaroo_model1 <- lm(wgt ~ hfl, data=kangaroo_rats_sample1 )
 kangaroo_model1
 ```
 
-If we repeat this, we will get a slightly different slope. 
+If we repeat this, we will get a slightly different slope 
 
 ```{r}
 kangaroo_rats_sample2 <- kangaroo_rats %>%

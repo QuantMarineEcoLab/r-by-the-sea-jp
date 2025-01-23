@@ -1,5 +1,5 @@
 ---
-title: "Notes L"
+title: "Notes M"
 subtitle: "Exploratory Data Analysis & Simple Linear Regression"
 format:
   html:
