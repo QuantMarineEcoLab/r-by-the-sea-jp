@@ -1,0 +1,158 @@
+---
+title: "ANOVA_Notes"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+#ANOVA (Analysis of variance) with cuckoos data set
+
+An analysis of variance (ANOVA) is a statistical test used to determine whether a continuous and a categorical variable differ. The categorical variable should have three or more groups, or levels. 
+
+
+```{r}
+library(DAAG)
+data("cuckoos")
+```
+
+Research question: Does egg length differ between the six species?
+
+Null hypothesis: 
+
+$$
+H_0: \mu_{\text{hedgesparrow}} = \mu_{\text{meadowpipit}} = \mu_{\text{piedwagtail}} = \mu_{\text{robin}} = \mu_{\text{treepipit}} = \mu_{\text{wren}}
+$$
+
+Alternative hypothesis:
+
+$$
+H_a: \text{At least one mean is different } \mu_{\text{species}} \neq \mu_{\text{another species}}
+$$
+
+##Visualizing the data
+
+```{r}
+#box plot
+ggplot(data = cuckoos, aes(x = species, y = length))+
+  geom_boxplot()+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle = 60, hjust = 1))
+```
+
+
+##ANOVA test assumptions
+
+-   Independence: The data collected is from a representative and randomly selected proportion of the total population.
+
+-   Normality: The data should be normally distributed
+
+-   Equality of variances: The variances should be equal across the groups (homoscedasticity).
+
+-  Outliers: There should be no significant outliers in different groups.
+
+```{r}
+ggplot(data = cuckoos,aes(x = length))+
+  geom_histogram()
+
+cuckoos %>% 
+  group_by(species) %>% 
+  summarise(var(length))
+```
+
+
+
+
+##Running the anova
+
+```{r}
+model1 <- aov(length ~ species, data = cuckoos)
+model2 <- lm(length ~ species, data = cuckoos)
+tukey <- TukeyHSD(model1)#make sure your object is called "tukey" for the code below. 
+```
+
+
+```{r}
+#| echo: true
+
+#Extracting significant pairs
+tukey_df <- as.data.frame(tukey$species)
+names(tukey_df)[names(tukey_df) == "p adj"] <- "p.adj"
+sig_pairs <- subset(tukey_df,p.adj < 0.05)
+
+# Create list of comparisons from significant pairs
+comparisons <- strsplit(row.names(sig_pairs), "-")
+#Creating the plot
+library(ggsignif)
+ggplot(cuckoos, aes(x = species, y = length)) +
+  geom_boxplot() +
+  geom_signif(comparisons = comparisons,
+  annotations = ifelse(sig_pairs$p.adj < 0.001,   "***",                               ifelse(sig_pairs$p.adj < 0.01, "**",               ifelse(sig_pairs$p.adj < 0.05, "*", ""))),
+y_position = seq(25, 35, length.out = nrow(sig_pairs)), #changing location of the bars
+tip_length = 0.02) +
+theme_bw()+
+theme(axis.text.x = element_text(angle = 30, 
+    hjus = 1, size = 18),
+    axis.text.y = element_text(size = 18),          
+    axis.title.x = element_text(size = 15),         
+    axis.title.y = element_text(size = 20)) +
+  labs(x = "Host species", y = "Egg length (mm)")
+```
+
+
+
+#ANOVA with the penguins data set
+
+```{r}
+library(palmerpenguins)
+data("penguins")
+View(penguins)
+```
+
+Research question: does flipper length differ between species?
+
+##Visualizing the data
+
+```{r}
+ggplot(data = penguins, aes(x = species, y = flipper_length_mm))+
+  geom_boxplot()
+
+
+
+```
+
+##Checking assumptions
+
+```{r}
+
+ggplot(data = penguins, aes(x = flipper_length_mm))+
+  geom_histogram()+
+  facet_wrap(~species)
+
+
+penguins %>% 
+  group_by(species) %>% 
+  summarise(var(flipper_length_mm,  na.rm = TRUE))
+
+```
+
+##Running the ANOVA
+
+```{r}
+#using aov
+mod1 <- aov(flipper_length_mm ~ species, data = penguins)
+summary(mod1)#getting output of the model
+
+tukey <- TukeyHSD(mod1)
+tukey
+
+#using lm
+mod2 <- lm(flipper_length_mm ~ species, data = penguins)
+summary(mod2)
+
+
+
+```
