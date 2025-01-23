@@ -4,133 +4,70 @@
     "href": "schedule.html",
     "title": "Logistics for Enrolled Students",
     "section": "",
-    "text": "Logistics for Enrolled Students\nThe workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). Details for how to get there can be found here.\n\n\nInstall R and RStudio\nTo access the course materials, you will need to have both R and RStudio installed on your computer. Follow the instructions available on the Posit website: https://posit.co/download/rstudio-desktop/.\n\nNote that there are two programs you need to download. R (or base R) is the brains or the calculator working behind the scenes - to work with this directly is possible but it’s a bit messy. RStudio is an additional interface that makes it easier to organize your scripts, your plots, your objects, and your files in one window. Typically, we will open RStudio and work directly in that program but it’s important to also have R installed in the background.\n\nYou should install these two programs before our first class. There will be some time given during our first class to help troubleshoot any issues that might arise during installation.\n\n\n\nSchedule & Course Materials\n\nto download the .qmd files (Template, Homework) you should right click and “Save Link As…”\nto view the Notes, just left-click in the usual way\n\n\n\n\n\n\n\n\n\n\nDate\nTime\nLetter\nTopic\nNotes\nTemplate\nData\nDesc\nExercise\nVideos\n\n\n\n\nMon, Jan 20\n9:30AM\n\n\nIntroduction and Welcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nA\nInstallation, Intro R, RMarkdown, File Paths\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nB\nNaming Objects, Wrangling data with `dplyr`:: `filter`, `select`, `arrange`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npossum.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nC\nAggregating data with `summarize`, `group_by()`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTues, Jan 21\n9:30AM\nD\nMaking plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nE\nMore making plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nF\nJoining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nco2.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nG\nReshaping/Pivoting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:00PM\n\n\nVirtual presentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Jan 22\n9:30AM\nH\nWorking with categorical data using `forcats`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nI\nWorking with dates using `lubridate`\n\n\n\n\n\n\n\n\n\n\n\n\n\nmadagascar.csv\n\n\n\n\n\n\n\n\n\n\n\n\n11:30AM\n\n\nLUNCH / Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nJournal Club (Room E217)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nJ\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nK\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlandings.csv\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurs, Jan 23\n9:30AM\nL\nANOVA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nM\nLinear regression\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\n\n\nAfternoon Off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFri, Jan 24\n9:30AM\nN\nPretty Documents: tables, figures, cross-references, and bibliography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nP\nPretty Documents: colors, themes, and scales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful cheatsheets (also in other languages)"
+    "text": "Logistics for Enrolled Students\nThe workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). Details for how to get there can be found here.\n\n\nInstall R and RStudio\nTo access the course materials, you will need to have both R and RStudio installed on your computer. Follow the instructions available on the Posit website: https://posit.co/download/rstudio-desktop/.\n\nNote that there are two programs you need to download. R (or base R) is the brains or the calculator working behind the scenes - to work with this directly is possible but it’s a bit messy. RStudio is an additional interface that makes it easier to organize your scripts, your plots, your objects, and your files in one window. Typically, we will open RStudio and work directly in that program but it’s important to also have R installed in the background.\n\nYou should install these two programs before our first class. There will be some time given during our first class to help troubleshoot any issues that might arise during installation.\n\n\n\nSchedule & Course Materials\n\nto download the .qmd files (Template, Homework) you should right click and “Save Link As…”\nto view the Notes, just left-click in the usual way\n\n\n\n\n\n\n\n\n\nDate\nTime\nLetter\nTopic\nNotes\nTemplate\nData\nDesc\nExercise\nVideos\n\n\n\n\nMon, Jan 20\n9:30AM\n\n\nIntroduction and Welcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nA\nInstallation, Intro R, RMarkdown, File Paths\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nB\nNaming Objects, Wrangling data with `dplyr`:: `filter`, `select`, `arrange`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npossum.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nC\nAggregating data with `summarize`, `group_by()`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTues, Jan 21\n9:30AM\nD\nMaking plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nE\nMore making plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nF\nJoining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nco2.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nG\nReshaping/Pivoting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:00PM\n\n\nVirtual presentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Jan 22\n9:30AM\nH\nWorking with categorical data using `forcats`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nI\nWorking with dates using `lubridate`\n\n\n\n\n\n\n\n\n\n\n\n\n\nmadagascar.csv\n\n\n\n\n\n\n\n\n\n\n\n\n11:30AM\n\n\nLUNCH / Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nJournal Club (Room E217)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nJ\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nK\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlandings.csv\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurs, Jan 23\n9:30AM\nL\nANOVA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nM\nLinear regression\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\n\n\nAfternoon Off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFri, Jan 24\n9:30AM\nN\nPretty Documents: tables, figures, cross-references, and bibliography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nP\nPretty Documents: colors, themes, and scales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful cheatsheets (also in other languages)"
   },
   {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html",
-    "title": "Notes P",
+    "objectID": "notes/K_maps2_leaflet_Notes.html",
+    "href": "notes/K_maps2_leaflet_Notes.html",
+    "title": "STAT 118: Notes L",
     "section": "",
-    "text": "#LOAD PACKAGES\nlibrary(tidyverse)"
+    "text": "#LOAD packages\nlibrary(sf)\nlibrary(tidyverse)\nlibrary(rnaturalearth)\nlibrary(rnaturalearthdata)\n#LOAD shapefiles\n#ne countries retrieves sf shapefiles for countries around the world\nworld &lt;- ne_countries(returnclass = \"sf\",scale=\"medium\")\nclass(world)\n\n[1] \"sf\"         \"data.frame\""
   },
   {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#default-colors",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#default-colors",
-    "title": "Notes P",
-    "section": "Default Colors",
-    "text": "Default Colors\nbp &lt;- ggplot(iris, aes(Species, Sepal.Length)) + \n  geom_boxplot(aes(fill = Species)) +\n  theme_minimal() +\n  theme(legend.position = \"top\")\nbp\n\n# Scatter plot\nsp &lt;- ggplot(iris, aes(Sepal.Length, Sepal.Width)) + \n  geom_point(aes(color = Petal.Length)) +\n  theme_minimal()+\n  theme(legend.position = \"top\")\nsp\n\n\n\n\n\n\nBoxplot Plot – discrete colors\n\n\n\n\n\n\n\nScatterplot – continuous colors\n\n\n\n\n\n\nDefault Colors"
+    "objectID": "notes/K_maps2_leaflet_Notes.html#using-openstreet-maps",
+    "href": "notes/K_maps2_leaflet_Notes.html#using-openstreet-maps",
+    "title": "STAT 118: Notes L",
+    "section": "Using OpenStreet Maps",
+    "text": "Using OpenStreet Maps\nA simple map of Tohoku University:\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  \n  # Add default OpenStreetMap map tiles\n  addMarkers(lng=140.830833, lat=38.255528, popup=\"Tohoku University Faculty of Agriculture\")\n\n\n\n\n\nA map of global landings:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;% # Add default OpenStreetMap map tiles\n  addMarkers(lng=~longitude, lat=~latitude, popup=~port)\n\n\n\n\n\nor using Circle Markers:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;%# Add default OpenStreetMap map tiles\n  addCircleMarkers(lng=~longitude, lat=~latitude, popup=~port, radius = ~landings_metrictons/100000, stroke =FALSE, fillOpacity =0.5)"
   },
   {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#on-a-plot",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#on-a-plot",
-    "title": "Notes P",
-    "section": "On a plot",
-    "text": "On a plot\nFor a plot you can create a custom color palette:\n\n\n\n\n\n\n\n\n\ncolor\nfill\n\n\n\n\n\nThis will be applied to points, lines and texts\nThis will change the fill color of areas, such as in box plot, bar plot, histogram, density plots, etc.\n\n\ndiscrete\nscale_color_manual\nscale_fill_manual\n\n\ncontinuous\nscale_color_gradient\nscale_fill_gradient\n\n\nwant continuous from discrete scale\nscale_color_distill\nscale_fill_distill\n\n\n\nbp\nbp + \n  scale_fill_manual(values=c(\"#9966cc\", \"#005bac\", \"#d50032\"))\nsp \nsp +\n  scale_colour_gradient(low = \"yellow\", high = \"red\")"
-  },
-  {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#color-palettes-colorbrewer",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#color-palettes-colorbrewer",
-    "title": "Notes P",
-    "section": "Color Palettes: colorBrewer",
-    "text": "Color Palettes: colorBrewer\nThe RColorBrewer package creates a nice looking color palettes.\n\nlibrary(RColorBrewer)\ndisplay.brewer.all()\n\n\n\n\n\n\n\n\n\nSequential palettes (first list of colors), which are suited to ordered data that progress from low to high (gradient). The palettes names are : Blues, BuGn, BuPu, GnBu, Greens, Greys, Oranges, OrRd, PuBu, PuBuGn, PuRd, Purples, RdPu, Reds, YlGn, YlGnBu YlOrBr, YlOrRd.\nQualitative palettes (second list of colors), which are best suited to represent nominal or categorical data. They not imply magnitude differences between groups. The palettes names are : Accent, Dark2, Paired, Pastel1, Pastel2, Set1, Set2, Set3.\nDiverging palettes (third list of colors), which put equal emphasis on mid-range critical values and extremes at both ends of the data range. The diverging palettes are : BrBG, PiYG, PRGn, PuOr, RdBu, RdGy, RdYlBu, RdYlGn, Spectral\n\nbp\nbp + \n  scale_fill_brewer(palette = \"Dark2\")\nsp \nsp +\n  scale_color_distiller(palette = \"BuPu\")"
-  },
-  {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#other-cool-palettes",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#other-cool-palettes",
-    "title": "Notes P",
-    "section": "Other Cool Palettes",
-    "text": "Other Cool Palettes\n\nggsci\nwesanderson\ntayloRswift"
-  },
-  {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#hide-the-legend",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#hide-the-legend",
-    "title": "Notes P",
-    "section": "hide the legend",
-    "text": "hide the legend\nbp\nbp + \n  guides(fill=\"none\")"
-  },
-  {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#customizing-title-of-legend",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#customizing-title-of-legend",
-    "title": "Notes P",
-    "section": "customizing title of legend",
-    "text": "customizing title of legend\nsp\nsp + \n  scale_color_continuous(name=\"Petal Length\")"
-  },
-  {
-    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#customizing-axes-breaks",
-    "href": "notes/P_Colors_Themes_Scales_Notes.html#customizing-axes-breaks",
-    "title": "Notes P",
-    "section": "customizing axes breaks",
-    "text": "customizing axes breaks\nsp\nsp + \n  scale_y_continuous(breaks=c(2,3,4,5))"
-  },
-  {
-    "objectID": "notes/N_Pretty_Documents_Notes.html",
-    "href": "notes/N_Pretty_Documents_Notes.html",
-    "title": "Notes N",
+    "objectID": "notes/Master_Cheatsheet.html",
+    "href": "notes/Master_Cheatsheet.html",
+    "title": "Master R Cheatsheet",
     "section": "",
-    "text": "```{r}\n#LOAD PACKAGES\nlibrary(tidyverse)\n```"
+    "text": "Quarto Guidelines"
   },
   {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#figure-captions",
-    "href": "notes/N_Pretty_Documents_Notes.html#figure-captions",
-    "title": "Notes N",
-    "section": "Figure Captions",
-    "text": "Figure Captions\nWhen we include figures: - we should have a figure caption (some text describing the figure) - we should have a label for the figure. Typically, we give a figure a descriptive figure label. - The chunk label is used to generate the file name of the graphic on disk, so naming your chunks makes it much easier to pick out plots and reuse in other circumstances (e.g., if you want to quickly drop a single plot into an email). - When we render Quarto will automatically go through and number the figures in order.\n\n```{r}\n#| label: fig-one-chart\n#| fig-cap: \"One Chart - Cars\"\n\nplot(cars)\n```\n\n\n\n\n\n\n\nFigure 1: One Chart - Cars\n\n\n\n\n\nYou can cross-reference a figure in the text by typing referencing @fig-label. You can type @fig-one-chart for it to replace with Figure 1.\nEx: There is a positive linear relationship between speed and distance shown in Figure 1.\nYou can also customize figure sizing with fig-width, fig-height, fig-asp, out-width and out-height."
-  },
-  {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
-    "href": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
-    "title": "Notes N",
-    "section": "Two graphs side-by-side?",
-    "text": "Two graphs side-by-side?\n```{r}\n#| label: fig-charts\n#| fig-cap: \"Two Charts\"\n#| fig-subcap:\n#|   - \"Cars\"\n#|   - \"Pressure\"\n#| layout-ncol: 2\n\nplot(cars)\nplot(pressure)\n```\n\n\n\n\n\n\n\n\n\n\n\n(a) Cars\n\n\n\n\n\n\n\n\n\n\n\n(b) Pressure\n\n\n\n\n\n\n\nFigure 2: Two Charts"
-  },
-  {
-    "objectID": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
-    "href": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
-    "title": "Notes N",
-    "section": "Referencing Tables in Quarto",
-    "text": "Referencing Tables in Quarto\nMake tables referenceable within the text, including computational tables, by using a tbl- prefix in labels.\n\n```{r}\n#| label: tbl-cars\n#| tbl-cap: \"Cars\"\n\ncars %&gt;% \n  head() %&gt;% \n  kbl()\n```\n\n\n\nTable 1: Cars\n\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\n\n\n\n\nThe first few rows of the cars dataset can be seen in Table 1 (referenced using @tbl-cars)"
-  },
-  {
-    "objectID": "notes/A_Intro_Notes.html",
-    "href": "notes/A_Intro_Notes.html",
-    "title": "Notes A",
+    "objectID": "notes/Master_Cheatsheet.html#tutorial-links",
+    "href": "notes/Master_Cheatsheet.html#tutorial-links",
+    "title": "Master R Cheatsheet",
     "section": "",
-    "text": "Tip\n\n\n\nA comprehensive list of markdown syntax can be found at https://quarto.org/docs/authoring/markdown-basics.html."
+    "text": "Quarto Guidelines"
   },
   {
-    "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
-    "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
-    "title": "Notes A",
-    "section": "Centered and large equations",
-    "text": "Centered and large equations\nType in the plain text section:\n$$y=\\frac{x^2}{SE(x^2)} $$\nDisplays as:\n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
+    "objectID": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "href": "notes/Master_Cheatsheet.html#ide-cheatsheets",
+    "title": "Master R Cheatsheet",
+    "section": "IDE Cheatsheets",
+    "text": "IDE Cheatsheets\nChanging language in R Studio to English\n\n#Sys.setenv(LANG = \"en\")"
   },
   {
-    "objectID": "notes/A_Intro_Notes.html#inline-equations",
-    "href": "notes/A_Intro_Notes.html#inline-equations",
-    "title": "Notes A",
-    "section": "Inline equations",
-    "text": "Inline equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
+    "objectID": "notes/Master_Cheatsheet.html#shortcuts",
+    "href": "notes/Master_Cheatsheet.html#shortcuts",
+    "title": "Master R Cheatsheet",
+    "section": "Shortcuts",
+    "text": "Shortcuts\n\n%&gt;%\n\nMac: Cmd + Shift + m\nPC: Ctrl + Shift + m\n\nR chunk\n\nMac: Option + Cmd + i\nPC: Ctrl + Alt + i\n\n&lt;-\n\nMac: Option + -\nPC: Alt + -\n\n\n\nEqual signs\n\n= : assigning values/characters to an object (sometimes replaces &lt;-)\n== : logical expression -Ex: filter(species == “Adelie”)\n\n\n\n\n\n\n\nTidyverse\n\n\n\nA %&gt;% is needed to link functions\n\n\nExample: If the pipe (%&gt;%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object ‘Species’ not found.\n\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa &lt;- iris %&gt;% \n  select(Species, Petal.Length) %&gt;% \n  filter(Species == \"setosa\")"
   },
   {
-    "objectID": "notes/A_Intro_Notes.html#inline-code",
-    "href": "notes/A_Intro_Notes.html#inline-code",
-    "title": "Notes A",
-    "section": "Inline code",
-    "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
-  },
-  {
-    "objectID": "notes/I_Lubridate_Notes_Blank.html",
-    "href": "notes/I_Lubridate_Notes_Blank.html",
-    "title": "Notes D",
+    "objectID": "notes/C_Aggregating_Notes.html",
+    "href": "notes/C_Aggregating_Notes.html",
+    "title": "Notes C",
     "section": "",
-    "text": "#LOAD PACKAGES \nlibrary(tidyverse)\nlibrary(lubridate)"
+    "text": "#LOAD PACKAGES \nlibrary(tidyverse)"
   },
   {
-    "objectID": "notes/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
-    "href": "notes/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
-    "title": "Notes D",
-    "section": "Formating Madagascar date_time column",
-    "text": "Formating Madagascar date_time column\nWhy function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., ymd_hms)\n#Exercise 1\n\nLoad in the madagascar data set\n\n\nMake a plot of the water temperature over time. Hint: use geom_pointin ggplot2\n\n\nLook at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?\n\n\nChange the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again."
+    "objectID": "notes/C_Aggregating_Notes.html#multiple-groups",
+    "href": "notes/C_Aggregating_Notes.html#multiple-groups",
+    "title": "Notes C",
+    "section": "Multiple Groups",
+    "text": "Multiple Groups\n\npenguins %&gt;%\n  group_by(species, sex) %&gt;%\n  summarise(average_bill_lenth = mean(bill_length_mm), \n            average_bill_depth = mean(bill_depth_mm))\n\n# A tibble: 6 × 4\n# Groups:   species [3]\n  species   sex    average_bill_lenth average_bill_depth\n  &lt;fct&gt;     &lt;fct&gt;               &lt;dbl&gt;              &lt;dbl&gt;\n1 Adelie    female               37.3               17.6\n2 Adelie    male                 40.4               19.1\n3 Chinstrap female               46.6               17.6\n4 Chinstrap male                 51.1               19.3\n5 Gentoo    female               45.6               14.2\n6 Gentoo    male                 49.5               15.7"
+  },
+  {
+    "objectID": "notes/E_ggplot2_Notes.html",
+    "href": "notes/E_ggplot2_Notes.html",
+    "title": "Notes E",
+    "section": "",
+    "text": "#Import the possum data again\nlibrary(DAAG)\ndata(\"possum\")\n\n# load packages\nlibrary(tidyverse) \n\n\nHistograms\n\nggplot(possum, aes(x=footlgth, fill=Pop)) + \n  geom_histogram(binwidth=1) + \n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\nBoxplots\n\n# if only one boxplot, it puts weird numbers on the x axis, you may want to use the theme to hide these numbers. \n\n# side-by-side boxplots are good to looking at the spread of a numeric variables (footlgth) broken down for each level of a categorical  variable (Pop) \n\n# same color for both boxplots\nggplot(possum, aes(y=footlgth, x=Pop)) +\n  geom_boxplot(color=\"red\", fill=\"pink\")\n\n\n\n\n\n\n\n# different color for both boxplots\nggplot(possum, aes(y=footlgth, x=Pop, color=Pop)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\n\n\nJitter\nJittering is a technique for adding random noise to data points that have identical values in a plot. It is a useful method for avoiding overplotting and making it easier to visualize the density of data points that are otherwise hidden behind each other.\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) + \n  geom_point(aes(color=Pop), alpha=0.8) \n\n\n\n\n\n\n\n# jitter adds a little random noise to the variable so that you don't have alot of points overlapping in a vertical line\n\n# alpha adjusts the transparency or opacity of the points -- 0 is invisible, 1 is solid/opaque, 0.3 is very see-through, 0.8 is a little bit see-through, etc. \n\n\n\nFacet Wrap\nfacet_wrap() is a function in the ggplot2 package that allows you to create a multi-panel plot showing a similar plot over different subsets of the data, usually different values of a categorical variable.\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) +\n  facet_wrap(~Pop) + \n  geom_point(aes(color=Pop), alpha=0.8) \n\n\n\n\n\n\n\n\n\n\nLabels\nAdding text to a plot is one of the most common forms of annotation. Most plots will not benefit from adding text to every single observation on the plot, but labelling outliers and other important points is very useful.\n\nlibrary(ggrepel)\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) + \n  geom_point(aes(color=Pop), alpha=0.8) + \n  #geom_text(aes(label=case), nudge_x = 0.5, nudge_y = 0.5, size=2)\n  geom_text_repel(aes(label=case), size=2)\n\n\n\n\n\n\n\n\n\n\nLine Graphs\ngeom_line()"
   },
   {
     "objectID": "notes/D_ggplot1_Notes.html",
@@ -175,25 +112,18 @@
     "text": "Why is this useful?\nUpdating labels:\nExploring relationships between variables in separate tables:\n\nportal_rodent_weather %&gt;% \n   group_by(year, month, day) %&gt;% \n   summarize(count_caught = n(), mean_airtemp = mean_airtemp) %&gt;% \n   ggplot(aes(x=mean_airtemp, y=count_caught)) +\n   geom_point() + \n   geom_smooth(method='lm')"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R by the Sea (Japan 2025)",
+    "objectID": "rbythesea.html",
+    "href": "rbythesea.html",
+    "title": "rbythesea",
     "section": "",
-    "text": "Welcome to “R by the Sea” – a one-week boot camp style course designed to help you harness the power of R for ecological and environmental research through project-based learning.\nFor resources to learn R, check out the Schedule & Resources 2025. It contains resources for the most recent iteration of this course."
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
-    "title": "R by the Sea (Japan 2025)",
+    "objectID": "rbythesea.html#quarto",
+    "href": "rbythesea.html#quarto",
+    "title": "rbythesea",
     "section": "",
-    "text": "Welcome to “R by the Sea” – a one-week boot camp style course designed to help you harness the power of R for ecological and environmental research through project-based learning.\nFor resources to learn R, check out the Schedule & Resources 2025. It contains resources for the most recent iteration of this course."
-  },
-  {
-    "objectID": "instructors.html",
-    "href": "instructors.html",
-    "title": "R by the Sea (Japan 2025)",
-    "section": "",
-    "text": "Easton White\n\n\n (he/him)\n\n\nAssistant Professor Department of Biology University of New Hampshire (UNH)\n\n\nDr. Easton White is a quantitative marine ecologist who uses mathematical and statistical tools, coupled with experiments and field observations, to answer questions in ecology, conservation science, sustainability, and ecosystem management. Most of his work is focused on marine systems, especially fisheries and spatial planning. Easton currently conducts research on assessing the effectiveness of protected area networks, improving species monitoring programs, and modeling socio-ecological systems in the context of fisheries. His work centers on how environmental variability, in particular rare events (e.g., hurricanes, COVID-19 pandemic), affects ecosystems and those that depend on them.\n\n\n\n\n\nEmily Malcolm-White\n\n\n(she/her)\n\n\nLecturer Department of Mathematics and Statistics Middlebury College\n\n\nEmily Malcolm-White is an educator and student support specialist with a love for developing and teaching quantitative skills to students from a wide variety of backgrounds. She is committed to fostering an inclusive and equitable learning environment for all students. At Middlebury College, Emily teaches a variety of courses including statistics, data science, and mathematics courses.\n\n\n\n\n\nDrew Villenueuve\n\n\n (he/him)\n\n\nPhD Candidate Department of Biology University of New Hampshire (UNH)\n\n\n\n\n\nFaith Frings\n\n\n(she/her)\n\n\nPhD Candidate Department of Biology University of New Hampshire (UNH)"
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
     "objectID": "qmdfiles/K_maps2_leaflet_Blank.html",
@@ -245,6 +175,13 @@
     "text": "#LOAD PACKAGES \nlibrary(tidyverse)\nlibrary(lubridate)"
   },
   {
+    "objectID": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
+    "href": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
+    "title": "Notes D",
+    "section": "Formating Madagascar date_time column",
+    "text": "Formating Madagascar date_time column\nWhy function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., ymd_hms)\n#Exercise 1\n\nLoad in the madagascar data set\n\n\nMake a plot of the water temperature over time. Hint: use geom_pointin ggplot2\n\n\nLook at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?\n\n\nChange the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again."
+  },
+  {
     "objectID": "qmdfiles/H_forcats_Homework.html",
     "href": "qmdfiles/H_forcats_Homework.html",
     "title": "Homework H",
@@ -285,13 +222,6 @@
     "title": "Homework C",
     "section": "",
     "text": "Code\n#LOAD PACKAGES \nlibrary(tidyverse)\n\n\n\n\nCode\n#LOAD DATASET\n# This iris dataset should be built into base R (no need to download a package). Just run the code below to load it. \ndata(\"iris\")\n\n\nThis famous (Fisher’s or Anderson’s) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris. The species are Iris setosa, versicolor, and virginica.\n\nVerify using group_by and summarize that there are indeed 50 different flowers from each of the different species of iris.\n\n\nCreate a table which displays the average sepal length and average sepal width for the setosa species of iris. No other data should be in this table.\n\n\nCreate a table which displays the average sepal length and the median sepal length for the setosa species of iris. No other data should be in this table.\n\n\nCreate a table which displays the minimum sepal length and the maximum sepal length for each of the three different species of iris.\n\n\nCreate one table which displays the minimum sepal length and the maximum sepal length for the species setosa and versicolor. Note that this table should not include any information about the virginica species. (This might be a challenge, but you can do it!)"
-  },
-  {
-    "objectID": "qmdfiles/B_Wrangling_Homework.html",
-    "href": "qmdfiles/B_Wrangling_Homework.html",
-    "title": "Homework B",
-    "section": "",
-    "text": "Code\n#make sure the package is installed on your computer or this won't run! \nlibrary(tidyverse)\n\n\n\n\nCode\n#This assignment concerns the gapminder dataset\n# First, Download gapminder from the menu at the right ---&gt; \nlibrary(gapminder)\ndata(gapminder) #this code loads the gapminder data so you can view it in your environment. Click on the word gapminder to be able see it \n\n\n\nHow many rows and columns does this dataset have?\nWhat are the names of the 6 columns?\nCreate a dataset called gapminder2007 which only contains information for each of the countries in 2007.\n\n\nIf you instead try to choose the subset with year equal to 2005, something will be weird. Try it and explain what happens and why.\n\n\nPrint out the rows of data corresponding to the US in 2007.\n\n\nIn the above problem, you would have put quotes around United States but not around 2007. Explain why.\nWhich country had a higher life expectancy in 1977: US or Japan?\n\n\nWhat is the lowest life expectancy in the gapminder dataset? Which country and year does it correspond to?\n\n\nFor the year 2007, print out a list of the top 10 countries with the highest life expectancy. They should be ordered from highest life expectancy to 10th highest life expectancy. You should only display the countries name and life expectancy (and no other data)."
   },
   {
     "objectID": "qmdfiles/J_maps_choropleth_Blank.html",
@@ -532,18 +462,11 @@
     "text": "Importing Data\nIn this class, we are going to be working with the possum dataset which consists of nine morphometric measurements on each of 104 mountain brushtail possums, trapped at seven Australian sites from Southern Victoria to central Queensland.\nSource: Lindenmayer, D. B., Viggers, K. L., Cunningham, R. B., and Donnelly, C. F. 1995. Morphological variation among columns of the mountain brushtail possum, Trichosurus caninus Ogilby (Phalangeridae: Marsupiala). Australian Journal of Zoology 43: 449-458.\nWhat is a .csv file?\nHow do we import it into R?\n\n#possum.csv needs to be saved in the same directory as this file. \n#possum &lt;- read.csv(\"possum.csv\")\n\nAlternatively, you can download it directly from the DAAD package.\n\n#You need to install the DAAG package first. Then you can call it using the code below. \n#library(DAAG)\n#data(possum)\n\nLet’s take a look at this data for a minute to see what information has been recorded.\nThis data frame contains the following columns:\ncase observation number site one of seven locations where possums were trapped. The sites were, in order,Cambarville, Bellbird, Whian Whian, Byrangery, Conondale, Allyn River and Bulburin Pop a factor which classifies the sites as Vic Victoria, other New South Wales or Queensland sex a factor with levels f female, m male age age hdlngth head length, in cm skullw skull width, in cm totlngth total length, in cm taill tail length, in cm footlgth foot length, in cm earconch ear conch length, in cm eye distance from medial canthus to lateral canthus of right eye, in cm chest chest girth, in cm belly belly girth, in cm\n\n\nInstalling and Using Packages\nSometimes everything we need (data, functions, etc) are not available in base R. In R, expert users will package up useful things like data and functions into packages that be download and used.\nFirst, you need to download the package from the right hand menu –&gt; You only need to do this once.\nIn each new .Rmd document, you need to call any packages you want to use but adding the code library(packagename) inside an R chunk.\nFor example, in this class we will use the tidyverse package a lot.\n\nlibrary(tidyverse)\n\n\n\ndplyr\nThere are actually many commonly used packages wrapped up inside one tidyverse package.\nToday we are specifically going to be talking about the package dplyr which is useful to manipulating data sets.\n\n\nfilter\nWe can use the filter function to extract rows from the data that have a particular characteristic.\nFor example, we may be interested in only looking at female possums.\n\n#start with the possums dataset, the pipe \"%\" means apply the action on the following line to the previous line. In this case, pick out only the rows were the sex variable is \"f\" \n\n\n\n##note the sex is text/categorical and so quotation marks are needed. \n##R doesn't care about whether they are double quotation marks (\") or single ('). They work the same. \n# If we don't assign it to an object, then it just prints out for us to see! \n\n\n#oftentimes, we want to take our subset and give it a new name. This takes our subset and assigns it to a new dataset called `possum_f`. \n\n\n\n#Notice if you assign it to an object that it doesn't print out the contents. \n# You'll see the new object in your environment on the top right ---&gt; \n# If you click on the word `possum_f` (not the blue play button) it will open the object so you can see what is saved inside. \n\nIt can also be used with numeric criteria.\nSuppose we want a list of all the possums whose total length is less than 80cm.\nThe logical operators are given below:\n\n\n\nselect\nselect is used to extract only certain columns. For example, perhaps we only want to print out a dataset with only the population, the sex, and the total length of each possum.\nWe can combine criteria together as well in one command with multiple pipes:\n\n\narrange\nThe arrange function allows us to order the rows of the data frame by the values of a particular column.\nFor example, arrange all the female possums by the longest length to the shortest total length\n\n#use arrange(variable) to go from least to most\n#use arrange(desc(variable)) to go from most to least, arrange(-variable) also works\n\n\n\nslice\nThe slice function will allow us to pick only a subset of the rows based on their numeric order (1st through last).\nFor example, if I want a list the 5 female possums with longest total lengths."
   },
   {
-    "objectID": "rbythesea.html",
-    "href": "rbythesea.html",
-    "title": "rbythesea",
+    "objectID": "qmdfiles/P_ANOVA_Notes_Blank.html",
+    "href": "qmdfiles/P_ANOVA_Notes_Blank.html",
+    "title": "ANOVA_Notes_Blank",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
-  },
-  {
-    "objectID": "rbythesea.html#quarto",
-    "href": "rbythesea.html#quarto",
-    "title": "rbythesea",
-    "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "library(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\n#ANOVA (Analysis of variance) with cuckoos data set\nAn analysis of variance (ANOVA) is a statistical test used to determine whether a continuous and a categorical variable differ. The categorical variable should have three or more groups, or levels.\n\nlibrary(DAAG)\ndata(\"cuckoos\")\n\nResearch question: Does egg length differ between the six species?\nNull hypothesis:\n\\[\nH_0: \\mu_{\\text{hedgesparrow}} = \\mu_{\\text{meadowpipit}} = \\mu_{\\text{piedwagtail}} = \\mu_{\\text{robin}} = \\mu_{\\text{treepipit}} = \\mu_{\\text{wren}}\n\\]\nAlternative hypothesis:\n\\[\nH_a: \\text{At least one mean is different } \\mu_{\\text{species}} \\neq \\mu_{\\text{another species}}\n\\]\n##Visualizing the data\n\n#box plot\n\n##ANOVA test assumptions\n\nIndependence: The data collected is from a representative and randomly selected proportion of the total population.\nNormality: The data should be normally distributed\nEquality of variances: The variances should be equal across the groups (homoscedasticity).\nOutliers: There should be no significant outliers in different groups.\n\n##Running the anova\n#ANOVA with the penguins data set\n\nlibrary(palmerpenguins)\n\nResearch question: does flipper length differ between species?\n##Visualizing the data\n##Checking assumptions\n##Running the ANOVA"
   },
   {
     "objectID": "notes/M_SLR_Notes.html",
@@ -658,73 +581,115 @@
     "text": "#load packages\nlibrary(tidyverse)\nlibrary(lubridate)\n\n\n#load data\npower &lt;- read.csv(\"../data/power.csv\")\n\n\nDate Formats are IMPORTANT\n# Time Series when Date is still a \"chr\" value\nggplot(power, aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"Date not in date format (still chr)\")\n# Transform Date to Date Format\npower &lt;- power %&gt;% \n  mutate(Date = mdy_hm(Date))\n\n#Recreate the Time Series\nggplot(power, aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"Date in Date Format\")\n\n\n\n\n\n\n\n\n\n\n\n\nShould we summarize the data? How?\n#No summary\npower %&gt;% \n  ggplot(aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"By minute: no summarizing\")\npower %&gt;% \n  mutate(Date_round = floor_date(Date, unit=\"day\")) %&gt;% \n  ggplot(aes(x=Date_round, y=power_kW)) +\n  geom_point() + \n  ggtitle(\"By date: all minute data kept (points) :(\")\npower %&gt;% \n  mutate(Date_round = floor_date(Date, unit=\"day\")) %&gt;% \n  ggplot(aes(x=Date_round, y=power_kW)) +\n  geom_line() + \n  ggtitle(\"By date: all minute data kept (lines) :(\")\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOver what time period should we summarize?\n# Keep in Minutes\npower %&gt;% \n  ggplot(aes(x=Date, y=power_kW)) + \n  geom_line() + \n  ggtitle(\"By minute\")\n# Sum by Hour\npower %&gt;% \n  mutate(Year = year(Date), Month = month(Date), Day = day(Date), Hour=hour(Date)) %&gt;% \n  group_by(Year, Month, Day, Hour) %&gt;% \n  summarize(Total_power_kw = sum(power_kW)) %&gt;% \n  mutate(Date_round = make_datetime(year=Year, month=Month, day=Day, hour=Hour)) %&gt;% \n  ggplot(aes(x=Date_round, y=Total_power_kw)) +\n  geom_line() + \n  ggtitle(\"By hour: summarize by adding\")\n# Sum by Day\npower %&gt;% \n  mutate(Year = year(Date), Month = month(Date), Day = day(Date)) %&gt;% \n  group_by(Year, Month, Day) %&gt;% \n  summarize(Total_power_kw = sum(power_kW)) %&gt;% \n  mutate(Date_round = make_date(year=Year, month=Month, day =Day)) %&gt;% \n  ggplot(aes(x=Date_round, y=Total_power_kw)) +\n  geom_line() + \n  ggtitle(\"By date: summarize by adding\")"
   },
   {
-    "objectID": "notes/E_ggplot2_Notes.html",
-    "href": "notes/E_ggplot2_Notes.html",
-    "title": "Notes E",
+    "objectID": "notes/A_Intro_Notes.html",
+    "href": "notes/A_Intro_Notes.html",
+    "title": "Notes A",
     "section": "",
-    "text": "#Import the possum data again\nlibrary(DAAG)\ndata(\"possum\")\n\n# load packages\nlibrary(tidyverse) \n\n\nHistograms\n\nggplot(possum, aes(x=footlgth, fill=Pop)) + \n  geom_histogram(binwidth=1) + \n  theme_minimal()\n\n\n\n\n\n\n\n\n\n\nBoxplots\n\n# if only one boxplot, it puts weird numbers on the x axis, you may want to use the theme to hide these numbers. \n\n# side-by-side boxplots are good to looking at the spread of a numeric variables (footlgth) broken down for each level of a categorical  variable (Pop) \n\n# same color for both boxplots\nggplot(possum, aes(y=footlgth, x=Pop)) +\n  geom_boxplot(color=\"red\", fill=\"pink\")\n\n\n\n\n\n\n\n# different color for both boxplots\nggplot(possum, aes(y=footlgth, x=Pop, color=Pop)) +\n  geom_boxplot()\n\n\n\n\n\n\n\n\n\n\nJitter\nJittering is a technique for adding random noise to data points that have identical values in a plot. It is a useful method for avoiding overplotting and making it easier to visualize the density of data points that are otherwise hidden behind each other.\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) + \n  geom_point(aes(color=Pop), alpha=0.8) \n\n\n\n\n\n\n\n# jitter adds a little random noise to the variable so that you don't have alot of points overlapping in a vertical line\n\n# alpha adjusts the transparency or opacity of the points -- 0 is invisible, 1 is solid/opaque, 0.3 is very see-through, 0.8 is a little bit see-through, etc. \n\n\n\nFacet Wrap\nfacet_wrap() is a function in the ggplot2 package that allows you to create a multi-panel plot showing a similar plot over different subsets of the data, usually different values of a categorical variable.\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) +\n  facet_wrap(~Pop) + \n  geom_point(aes(color=Pop), alpha=0.8) \n\n\n\n\n\n\n\n\n\n\nLabels\nAdding text to a plot is one of the most common forms of annotation. Most plots will not benefit from adding text to every single observation on the plot, but labelling outliers and other important points is very useful.\n\nlibrary(ggrepel)\n\nggplot(possum, aes(x=jitter(age), y=totlngth)) + \n  geom_point(aes(color=Pop), alpha=0.8) + \n  #geom_text(aes(label=case), nudge_x = 0.5, nudge_y = 0.5, size=2)\n  geom_text_repel(aes(label=case), size=2)\n\n\n\n\n\n\n\n\n\n\nLine Graphs\ngeom_line()"
+    "text": "Tip\n\n\n\nA comprehensive list of markdown syntax can be found at https://quarto.org/docs/authoring/markdown-basics.html."
   },
   {
-    "objectID": "notes/C_Aggregating_Notes.html",
-    "href": "notes/C_Aggregating_Notes.html",
-    "title": "Notes C",
+    "objectID": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "href": "notes/A_Intro_Notes.html#centered-and-large-equations",
+    "title": "Notes A",
+    "section": "Centered and large equations",
+    "text": "Centered and large equations\nType in the plain text section:\n$$y=\\frac{x^2}{SE(x^2)} $$\nDisplays as:\n\\[y=\\frac{x^2}{SE(x^2)} \\]\nHint: Some people like to use the visual editor to insert equations"
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-equations",
+    "href": "notes/A_Intro_Notes.html#inline-equations",
+    "title": "Notes A",
+    "section": "Inline equations",
+    "text": "Inline equations\nType in the plain text section:\nWe take and calculate the standard error $SE(x_1)$.\nDisplays as:\nWe take and calculate the standard error \\(SE(x_1)\\)."
+  },
+  {
+    "objectID": "notes/A_Intro_Notes.html#inline-code",
+    "href": "notes/A_Intro_Notes.html#inline-code",
+    "title": "Notes A",
+    "section": "Inline code",
+    "text": "Inline code\nType in the plain text section:\nThis is a sentence. The value of x is `r x`\nDisplays as:\nThis is a sentence. The value of x is 11."
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html",
+    "href": "notes/N_Pretty_Documents_Notes.html",
+    "title": "Notes N",
     "section": "",
-    "text": "#LOAD PACKAGES \nlibrary(tidyverse)"
+    "text": "```{r}\n#LOAD PACKAGES\nlibrary(tidyverse)\n```"
   },
   {
-    "objectID": "notes/C_Aggregating_Notes.html#multiple-groups",
-    "href": "notes/C_Aggregating_Notes.html#multiple-groups",
-    "title": "Notes C",
-    "section": "Multiple Groups",
-    "text": "Multiple Groups\n\npenguins %&gt;%\n  group_by(species, sex) %&gt;%\n  summarise(average_bill_lenth = mean(bill_length_mm), \n            average_bill_depth = mean(bill_depth_mm))\n\n# A tibble: 6 × 4\n# Groups:   species [3]\n  species   sex    average_bill_lenth average_bill_depth\n  &lt;fct&gt;     &lt;fct&gt;               &lt;dbl&gt;              &lt;dbl&gt;\n1 Adelie    female               37.3               17.6\n2 Adelie    male                 40.4               19.1\n3 Chinstrap female               46.6               17.6\n4 Chinstrap male                 51.1               19.3\n5 Gentoo    female               45.6               14.2\n6 Gentoo    male                 49.5               15.7"
+    "objectID": "notes/N_Pretty_Documents_Notes.html#figure-captions",
+    "href": "notes/N_Pretty_Documents_Notes.html#figure-captions",
+    "title": "Notes N",
+    "section": "Figure Captions",
+    "text": "Figure Captions\nWhen we include figures: - we should have a figure caption (some text describing the figure) - we should have a label for the figure. Typically, we give a figure a descriptive figure label. - The chunk label is used to generate the file name of the graphic on disk, so naming your chunks makes it much easier to pick out plots and reuse in other circumstances (e.g., if you want to quickly drop a single plot into an email). - When we render Quarto will automatically go through and number the figures in order.\n\n```{r}\n#| label: fig-one-chart\n#| fig-cap: \"One Chart - Cars\"\n\nplot(cars)\n```\n\n\n\n\n\n\n\nFigure 1: One Chart - Cars\n\n\n\n\n\nYou can cross-reference a figure in the text by typing referencing @fig-label. You can type @fig-one-chart for it to replace with Figure 1.\nEx: There is a positive linear relationship between speed and distance shown in Figure 1.\nYou can also customize figure sizing with fig-width, fig-height, fig-asp, out-width and out-height."
   },
   {
-    "objectID": "notes/Master_Cheatsheet.html",
-    "href": "notes/Master_Cheatsheet.html",
-    "title": "Master R Cheatsheet",
+    "objectID": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
+    "href": "notes/N_Pretty_Documents_Notes.html#two-graphs-side-by-side",
+    "title": "Notes N",
+    "section": "Two graphs side-by-side?",
+    "text": "Two graphs side-by-side?\n```{r}\n#| label: fig-charts\n#| fig-cap: \"Two Charts\"\n#| fig-subcap:\n#|   - \"Cars\"\n#|   - \"Pressure\"\n#| layout-ncol: 2\n\nplot(cars)\nplot(pressure)\n```\n\n\n\n\n\n\n\n\n\n\n\n(a) Cars\n\n\n\n\n\n\n\n\n\n\n\n(b) Pressure\n\n\n\n\n\n\n\nFigure 2: Two Charts"
+  },
+  {
+    "objectID": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
+    "href": "notes/N_Pretty_Documents_Notes.html#referencing-tables-in-quarto",
+    "title": "Notes N",
+    "section": "Referencing Tables in Quarto",
+    "text": "Referencing Tables in Quarto\nMake tables referenceable within the text, including computational tables, by using a tbl- prefix in labels.\n\n```{r}\n#| label: tbl-cars\n#| tbl-cap: \"Cars\"\n\ncars %&gt;% \n  head() %&gt;% \n  kbl()\n```\n\n\n\nTable 1: Cars\n\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22\n\n\n8\n16\n\n\n9\n10\n\n\n\n\n\n\n\n\n\n\nThe first few rows of the cars dataset can be seen in Table 1 (referenced using @tbl-cars)"
+  },
+  {
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html",
+    "title": "Notes P",
     "section": "",
-    "text": "Quarto Guidelines"
+    "text": "#LOAD PACKAGES\nlibrary(tidyverse)"
   },
   {
-    "objectID": "notes/Master_Cheatsheet.html#tutorial-links",
-    "href": "notes/Master_Cheatsheet.html#tutorial-links",
-    "title": "Master R Cheatsheet",
-    "section": "",
-    "text": "Quarto Guidelines"
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#default-colors",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#default-colors",
+    "title": "Notes P",
+    "section": "Default Colors",
+    "text": "Default Colors\nbp &lt;- ggplot(iris, aes(Species, Sepal.Length)) + \n  geom_boxplot(aes(fill = Species)) +\n  theme_minimal() +\n  theme(legend.position = \"top\")\nbp\n\n# Scatter plot\nsp &lt;- ggplot(iris, aes(Sepal.Length, Sepal.Width)) + \n  geom_point(aes(color = Petal.Length)) +\n  theme_minimal()+\n  theme(legend.position = \"top\")\nsp\n\n\n\n\n\n\nBoxplot Plot – discrete colors\n\n\n\n\n\n\n\nScatterplot – continuous colors\n\n\n\n\n\n\nDefault Colors"
   },
   {
-    "objectID": "notes/Master_Cheatsheet.html#ide-cheatsheets",
-    "href": "notes/Master_Cheatsheet.html#ide-cheatsheets",
-    "title": "Master R Cheatsheet",
-    "section": "IDE Cheatsheets",
-    "text": "IDE Cheatsheets\nChanging language in R Studio to English\n\n#Sys.setenv(LANG = \"en\")"
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#on-a-plot",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#on-a-plot",
+    "title": "Notes P",
+    "section": "On a plot",
+    "text": "On a plot\nFor a plot you can create a custom color palette:\n\n\n\n\n\n\n\n\n\ncolor\nfill\n\n\n\n\n\nThis will be applied to points, lines and texts\nThis will change the fill color of areas, such as in box plot, bar plot, histogram, density plots, etc.\n\n\ndiscrete\nscale_color_manual\nscale_fill_manual\n\n\ncontinuous\nscale_color_gradient\nscale_fill_gradient\n\n\nwant continuous from discrete scale\nscale_color_distill\nscale_fill_distill\n\n\n\nbp\nbp + \n  scale_fill_manual(values=c(\"#9966cc\", \"#005bac\", \"#d50032\"))\nsp \nsp +\n  scale_colour_gradient(low = \"yellow\", high = \"red\")"
   },
   {
-    "objectID": "notes/Master_Cheatsheet.html#shortcuts",
-    "href": "notes/Master_Cheatsheet.html#shortcuts",
-    "title": "Master R Cheatsheet",
-    "section": "Shortcuts",
-    "text": "Shortcuts\n\n%&gt;%\n\nMac: Cmd + Shift + m\nPC: Ctrl + Shift + m\n\nR chunk\n\nMac: Option + Cmd + i\nPC: Ctrl + Alt + i\n\n&lt;-\n\nMac: Option + -\nPC: Alt + -\n\n\n\nEqual signs\n\n= : assigning values/characters to an object (sometimes replaces &lt;-)\n== : logical expression -Ex: filter(species == “Adelie”)\n\n\n\n\n\n\n\nTidyverse\n\n\n\nA %&gt;% is needed to link functions\n\n\nExample: If the pipe (%&gt;%) after select() is missing in the code below, R will not be able to read the filter function and will give the error message: Error: object ‘Species’ not found.\n\nlibrary(tidyverse)\ndata(\"iris\")\n\nsetosa &lt;- iris %&gt;% \n  select(Species, Petal.Length) %&gt;% \n  filter(Species == \"setosa\")"
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#color-palettes-colorbrewer",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#color-palettes-colorbrewer",
+    "title": "Notes P",
+    "section": "Color Palettes: colorBrewer",
+    "text": "Color Palettes: colorBrewer\nThe RColorBrewer package creates a nice looking color palettes.\n\nlibrary(RColorBrewer)\ndisplay.brewer.all()\n\n\n\n\n\n\n\n\n\nSequential palettes (first list of colors), which are suited to ordered data that progress from low to high (gradient). The palettes names are : Blues, BuGn, BuPu, GnBu, Greens, Greys, Oranges, OrRd, PuBu, PuBuGn, PuRd, Purples, RdPu, Reds, YlGn, YlGnBu YlOrBr, YlOrRd.\nQualitative palettes (second list of colors), which are best suited to represent nominal or categorical data. They not imply magnitude differences between groups. The palettes names are : Accent, Dark2, Paired, Pastel1, Pastel2, Set1, Set2, Set3.\nDiverging palettes (third list of colors), which put equal emphasis on mid-range critical values and extremes at both ends of the data range. The diverging palettes are : BrBG, PiYG, PRGn, PuOr, RdBu, RdGy, RdYlBu, RdYlGn, Spectral\n\nbp\nbp + \n  scale_fill_brewer(palette = \"Dark2\")\nsp \nsp +\n  scale_color_distiller(palette = \"BuPu\")"
   },
   {
-    "objectID": "notes/K_maps2_leaflet_Notes.html",
-    "href": "notes/K_maps2_leaflet_Notes.html",
-    "title": "STAT 118: Notes L",
-    "section": "",
-    "text": "#LOAD packages\nlibrary(sf)\nlibrary(tidyverse)\nlibrary(rnaturalearth)\nlibrary(rnaturalearthdata)\n#LOAD shapefiles\n#ne countries retrieves sf shapefiles for countries around the world\nworld &lt;- ne_countries(returnclass = \"sf\",scale=\"medium\")\nclass(world)\n\n[1] \"sf\"         \"data.frame\""
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#other-cool-palettes",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#other-cool-palettes",
+    "title": "Notes P",
+    "section": "Other Cool Palettes",
+    "text": "Other Cool Palettes\n\nggsci\nwesanderson\ntayloRswift"
   },
   {
-    "objectID": "notes/K_maps2_leaflet_Notes.html#using-openstreet-maps",
-    "href": "notes/K_maps2_leaflet_Notes.html#using-openstreet-maps",
-    "title": "STAT 118: Notes L",
-    "section": "Using OpenStreet Maps",
-    "text": "Using OpenStreet Maps\nA simple map of Tohoku University:\n\nleaflet() %&gt;%\n  addTiles() %&gt;%  \n  # Add default OpenStreetMap map tiles\n  addMarkers(lng=140.830833, lat=38.255528, popup=\"Tohoku University Faculty of Agriculture\")\n\n\n\n\n\nA map of global landings:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;% # Add default OpenStreetMap map tiles\n  addMarkers(lng=~longitude, lat=~latitude, popup=~port)\n\n\n\n\n\nor using Circle Markers:\n\nleaflet(data=ports) %&gt;%\n  addTiles() %&gt;%# Add default OpenStreetMap map tiles\n  addCircleMarkers(lng=~longitude, lat=~latitude, popup=~port, radius = ~landings_metrictons/100000, stroke =FALSE, fillOpacity =0.5)"
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#hide-the-legend",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#hide-the-legend",
+    "title": "Notes P",
+    "section": "hide the legend",
+    "text": "hide the legend\nbp\nbp + \n  guides(fill=\"none\")"
   },
   {
-    "objectID": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
-    "href": "qmdfiles/I_Lubridate_Notes_Blank.html#formating-madagascar-date_time-column",
-    "title": "Notes D",
-    "section": "Formating Madagascar date_time column",
-    "text": "Formating Madagascar date_time column\nWhy function do you think you would use to format the madagascar data_time column from a character to a POSIXct format? Write it in the markdown doc below (e.g., ymd_hms)\n#Exercise 1\n\nLoad in the madagascar data set\n\n\nMake a plot of the water temperature over time. Hint: use geom_pointin ggplot2\n\n\nLook at the class (e.g, character, number) of each of your columns. What is the class of the date_time column?\n\n\nChange the date_time column to a POSIXct format. Check to see if the column was changed and graph the temperature over time again."
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#customizing-title-of-legend",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#customizing-title-of-legend",
+    "title": "Notes P",
+    "section": "customizing title of legend",
+    "text": "customizing title of legend\nsp\nsp + \n  scale_color_continuous(name=\"Petal Length\")"
+  },
+  {
+    "objectID": "notes/P_Colors_Themes_Scales_Notes.html#customizing-axes-breaks",
+    "href": "notes/P_Colors_Themes_Scales_Notes.html#customizing-axes-breaks",
+    "title": "Notes P",
+    "section": "customizing axes breaks",
+    "text": "customizing axes breaks\nsp\nsp + \n  scale_y_continuous(breaks=c(2,3,4,5))"
   }
 ]

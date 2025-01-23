@@ -1,0 +1,92 @@
+---
+title: "ANOVA_Notes_Blank"
+format: html
+editor: visual
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+
+#ANOVA (Analysis of variance) with cuckoos data set
+
+An analysis of variance (ANOVA) is a statistical test used to determine whether a continuous and a categorical variable differ. The categorical variable should have three or more groups, or levels. 
+
+
+```{r}
+library(DAAG)
+data("cuckoos")
+```
+
+Research question: Does egg length differ between the six species?
+
+Null hypothesis: 
+
+$$
+H_0: \mu_{\text{hedgesparrow}} = \mu_{\text{meadowpipit}} = \mu_{\text{piedwagtail}} = \mu_{\text{robin}} = \mu_{\text{treepipit}} = \mu_{\text{wren}}
+$$
+
+Alternative hypothesis:
+
+$$
+H_a: \text{At least one mean is different } \mu_{\text{species}} \neq \mu_{\text{another species}}
+$$
+
+##Visualizing the data
+
+```{r}
+#box plot
+
+```
+
+
+##ANOVA test assumptions
+
+-   Independence: The data collected is from a representative and randomly selected proportion of the total population.
+
+-   Normality: The data should be normally distributed
+
+-   Equality of variances: The variances should be equal across the groups (homoscedasticity).
+
+-  Outliers: There should be no significant outliers in different groups.
+
+```{r}
+```
+
+
+##Running the anova
+
+```{r}
+
+```
+
+
+#ANOVA with the penguins data set
+
+```{r}
+library(palmerpenguins)
+```
+
+Research question: does flipper length differ between species?
+
+##Visualizing the data
+
+```{r}
+
+```
+
+##Checking assumptions
+
+```{r}
+
+```
+
+
+##Running the ANOVA
+
+```{r}
+
+```
+

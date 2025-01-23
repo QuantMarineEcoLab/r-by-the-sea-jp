@@ -1,0 +1,15 @@
+{
+  "hash": "e1d2a2a58f02a48de8561f52d3d2c2fd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: 'STAT 118: Notes K'\nsubtitle: 'Adding points to maps`'\nauthor: 'Andrew Villeneuve'\ninstitute: 'University of New Hampshire'\nformat:\n  html: \n    toc: TRUE\n    code-overflow: wrap\n    embed-resources: true\n---\n\n::: {.cell}\n\n```{.r .cell-code}\n#LOAD packages\n#library(sf)\n#library(tidyverse)\n#library(rnaturalearth)\n```\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\n#LOAD shapefiles\n#ne countries retrieves sf shapefiles for countries around the world\n#world <- ne_countries(returnclass = \"sf\",scale=\"medium\")\n#class(world)\n```\n:::\n\n\n\n\n\n# More `sf` maps with points\n\nLet's make a global map which shows country borders.\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#basic map\n```\n:::\n\n\n\n\n\nWe are going to visualize global fishing landings in 2012 from a UN FAO report that ranked the top 100 fishing ports by metric landings.\n\nThe dataframe `ports` contains 8 variables:\n\n* `port` - Port name\n* `country` - Country of the port\n* `landings_metrictons` - Metric tonnage of landings in 2012\n* `latitude` - Port latitude\n* `longitude` - Port longitude\n* `demersal_perc` - Percentage of demersal species\n* `pelagic_perc` - Percentage of pelagic species\n* `shellfish_perc` - Percentage of shellfish species\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#ports<-read.csv(\"../data/landings.csv\")\n\n\n#let's add our sites to our map\n```\n:::\n\n\n\n\n\nJust like in non-map ggplot, we can alter the aesthetics of the port points by another variable in our dataframe. Here, we will change the size of our points based on the weight of fisheries landings. \n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#size by number oflandings\n```\n:::\n\n\n\n\n\nWe can further restrict the geographic scope of this map by first filtering our sf world shapefile to just show Japan's borders, and then to filter the `ports` dataframe to just show Japanese ports. \n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n# Leaflet\n\nLeaflet is one of the most popular open-source JavaScript libraries for interactive maps.\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#library(leaflet)\n```\n:::\n\n\n\n\n\nYou create a Leaflet map with these basic steps:\n\n1.  Create a map widget by calling leaflet().\n2.  Add layers (i.e., features) to the map by using layer functions (e.g. `addTiles`, `addMarkers`, `addPolygons`) to modify the map widget.\n3.  Repeat step 2 as desired.\n\n## Using OpenStreet Maps\n\nA simple map of Tohoku University:\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#leaflet() %>%\n#  addTiles() %>%  \n#  # Add default OpenStreetMap map tiles\n#  addMarkers(lng=140.830833, lat=38.255528, popup=\"Tohoku University Faculty of Agriculture\")\n```\n:::\n\n\n\n\n\nA map of global landings:\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\nor using Circle Markers:\n\n\n\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

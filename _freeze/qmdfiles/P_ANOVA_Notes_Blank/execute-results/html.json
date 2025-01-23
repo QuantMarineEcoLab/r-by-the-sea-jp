@@ -1,0 +1,15 @@
+{
+  "hash": "e2e7d74cfeb62902fd7f239764bfa90a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"ANOVA_Notes_Blank\"\nformat: html\neditor: visual\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(tidyverse)\n```\n\n::: {.cell-output .cell-output-stderr}\n\n```\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n\n\n:::\n:::\n\n\n\n\n\n\n#ANOVA (Analysis of variance) with cuckoos data set\n\nAn analysis of variance (ANOVA) is a statistical test used to determine whether a continuous and a categorical variable differ. The categorical variable should have three or more groups, or levels. \n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(DAAG)\ndata(\"cuckoos\")\n```\n:::\n\n\n\n\n\nResearch question: Does egg length differ between the six species?\n\nNull hypothesis: \n\n$$\nH_0: \\mu_{\\text{hedgesparrow}} = \\mu_{\\text{meadowpipit}} = \\mu_{\\text{piedwagtail}} = \\mu_{\\text{robin}} = \\mu_{\\text{treepipit}} = \\mu_{\\text{wren}}\n$$\n\nAlternative hypothesis:\n\n$$\nH_a: \\text{At least one mean is different } \\mu_{\\text{species}} \\neq \\mu_{\\text{another species}}\n$$\n\n##Visualizing the data\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#box plot\n```\n:::\n\n\n\n\n\n\n##ANOVA test assumptions\n\n-   Independence: The data collected is from a representative and randomly selected proportion of the total population.\n\n-   Normality: The data should be normally distributed\n\n-   Equality of variances: The variances should be equal across the groups (homoscedasticity).\n\n-  Outliers: There should be no significant outliers in different groups.\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n##Running the anova\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n#ANOVA with the penguins data set\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(palmerpenguins)\n```\n:::\n\n\n\n\n\nResearch question: does flipper length differ between species?\n\n##Visualizing the data\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n##Checking assumptions\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n##Running the ANOVA\n\n\n\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
