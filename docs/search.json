@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Logistics for Enrolled Students",
     "section": "",
-    "text": "Logistics for Enrolled Students\nThe workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). Details for how to get there can be found here.\n\n\nInstall R and RStudio\nTo access the course materials, you will need to have both R and RStudio installed on your computer. Follow the instructions available on the Posit website: https://posit.co/download/rstudio-desktop/.\n\nNote that there are two programs you need to download. R (or base R) is the brains or the calculator working behind the scenes - to work with this directly is possible but it’s a bit messy. RStudio is an additional interface that makes it easier to organize your scripts, your plots, your objects, and your files in one window. Typically, we will open RStudio and work directly in that program but it’s important to also have R installed in the background.\n\nYou should install these two programs before our first class. There will be some time given during our first class to help troubleshoot any issues that might arise during installation.\n\n\n\nSchedule & Course Materials\n\nto download the .qmd files (Template, Homework) you should right click and “Save Link As…”\nto view the Notes, just left-click in the usual way\n\n\n\n\n\n\n\n\n\nDate\nTime\nLetter\nTopic\nNotes\nTemplate\nData\nDesc\nExercise\nVideos\n\n\n\n\nMon, Jan 20\n9:30AM\n\n\nIntroduction and Welcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nA\nInstallation, Intro R, RMarkdown, File Paths\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nB\nNaming Objects, Wrangling data with `dplyr`:: `filter`, `select`, `arrange`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npossum.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nC\nAggregating data with `summarize`, `group_by()`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTues, Jan 21\n9:30AM\nD\nMaking plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nE\nMore making plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nF\nJoining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nco2.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nG\nReshaping/Pivoting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:00PM\n\n\nVirtual presentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Jan 22\n9:30AM\nH\nWorking with categorical data using `forcats`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nI\nWorking with dates using `lubridate`\n\n\n\n\n\n\n\n\n\n\n\n\n\nmadagascar.csv\n\n\n\n\n\n\n\n\n\n\n\n\n11:30AM\n\n\nLUNCH / Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nJournal Club (Room E217)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nJ\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nK\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlandings.csv\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurs, Jan 23\n9:30AM\nL\nANOVA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nM\nLinear regression\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\n\n\nAfternoon Off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFri, Jan 24\n9:30AM\nN\nPretty Documents: tables, figures, cross-references, and bibliography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nP\nPretty Documents: colors, themes, and scales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful cheatsheets (also in other languages)"
+    "text": "Logistics for Enrolled Students\nThe workshop will be held in the Faculty of Agriculture, located on Aobayama Campus (Tohoku University). Details for how to get there can be found here.\n\n\nInstall R and RStudio\nTo access the course materials, you will need to have both R and RStudio installed on your computer. Follow the instructions available on the Posit website: https://posit.co/download/rstudio-desktop/.\n\nNote that there are two programs you need to download. R (or base R) is the brains or the calculator working behind the scenes - to work with this directly is possible but it’s a bit messy. RStudio is an additional interface that makes it easier to organize your scripts, your plots, your objects, and your files in one window. Typically, we will open RStudio and work directly in that program but it’s important to also have R installed in the background.\n\nYou should install these two programs before our first class. There will be some time given during our first class to help troubleshoot any issues that might arise during installation.\n\n\n\nSchedule & Course Materials\n\nto download the .qmd files (Template, Homework) you should right click and “Save Link As…”\nto view the Notes, just left-click in the usual way\n\n\n\n\n\n\n\n\n\nDate\nTime\nLetter\nTopic\nNotes\nTemplate\nData\nDesc\nExercise\nVideos\n\n\n\n\nMon, Jan 20\n9:30AM\n\n\nIntroduction and Welcome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nA\nInstallation, Intro R, RMarkdown, File Paths\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nB\nNaming Objects, Wrangling data with `dplyr`:: `filter`, `select`, `arrange`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npossum.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nC\nAggregating data with `summarize`, `group_by()`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTues, Jan 21\n9:30AM\nD\nMaking plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nE\nMore making plots with `ggplot2`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nF\nJoining\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nco2.csv\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nG\nReshaping/Pivoting\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4:00PM\n\n\nVirtual presentation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Jan 22\n9:30AM\nH\nWorking with categorical data using `forcats`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nI\nWorking with dates using `lubridate`\n\n\n\n\n\n\n\n\n\n\n\n\n\nmadagascar.csv\n\n\n\n\n\n\n\n\n\n\n\n\n11:30AM\n\n\nLUNCH / Break\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:00PM\n\n\nJournal Club (Room E217)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nJ\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\nK\nMaps\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlandings.csv\n\n\n\n\n\n\n\n\n\n\n4:30PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThurs, Jan 23\n9:30AM\nL\nANOVA\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nM\nLinear regression\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\n\n\nAfternoon Off\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFri, Jan 24\n9:30AM\nN\nPretty Documents: tables, figures, cross-references, and bibliography\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n11:00AM\nO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n12:30PM\n\n\nLUNCH\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1:30PM\nP\nPretty Documents: colors, themes, and scales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3:00PM\n\n\nOffice hours / Catch up\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelpful cheatsheets (also in other languages)"
   },
   {
     "objectID": "notes/K_maps2_leaflet_Notes.html",
@@ -303,35 +303,35 @@
   {
     "objectID": "qmdfiles/M_SLR_Blank.html",
     "href": "qmdfiles/M_SLR_Blank.html",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "",
     "text": "#LOAD PACKAGES\nlibrary(tidyverse)"
   },
   {
     "objectID": "qmdfiles/M_SLR_Blank.html#assumptions-of-linear-regression",
     "href": "qmdfiles/M_SLR_Blank.html#assumptions-of-linear-regression",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Assumptions of Linear Regression:",
     "text": "Assumptions of Linear Regression:\n\nLinearity: The relationship between X and the mean of Y is linear – look at scatterplot\nHomoscedasticity: The variance of residual is the same for any value of X – look at fitted vs. residuals plot\nIndependence: Observations are independent of each other – think about context\nNormality: For any fixed value of X, Y is normally distributed. – check the QQ plot"
   },
   {
     "objectID": "qmdfiles/M_SLR_Blank.html#check-the-scatterplot",
     "href": "qmdfiles/M_SLR_Blank.html#check-the-scatterplot",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Check the scatterplot",
     "text": "Check the scatterplot\n\n# power %&gt;% \n#   drop_na() %&gt;% \n#   ggplot(aes(x=windSpeedRadarTower_m_per_sec, y=power_kW)) + \n#   geom_point(pch=16, alpha=0.5, position=\"jitter\") + \n#   geom_smooth(method=lm, se=FALSE) +\n#   labs(x = \"Wind Speed (m/s)\", y = \"Power (kW)\") + \n#   theme_minimal()\n\nSome examples of nonlinear plots:"
   },
   {
     "objectID": "qmdfiles/M_SLR_Blank.html#fitted-vs.-residuals-plot-and-qqplots",
     "href": "qmdfiles/M_SLR_Blank.html#fitted-vs.-residuals-plot-and-qqplots",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "fitted vs. residuals plot and QQplots",
     "text": "fitted vs. residuals plot and QQplots\n\n#library(ggResidpanel)\n#resid_panel(power_model)\n\nThe default panel includes the following four plots.\n\nResidual Plot (upper left): This is a plot of the residuals versus predictive values from the model to assess the linearity and constant variance assumptions.\nNormal Quantile Plot (upper right): Also known as a qq-plot, this plot allows us to assess the normality assumption.\nHistogram (lower right): This is a histogram of the residuals with a overlaid normal density curve with mean and standard deviation computed from the residuals. It provides an additional way to check the normality assumption. This plot makes it clear that there is a slight right skew in the residuals from the penguin_model.\nIndex Plot (lower left): This is a plot of the residuals versus the observation numbers. It can help to find patterns related to the way that the data has been ordered, which may provide insights into additional trends in the data that have not been accounted for in the model.\n\nSome other examples:"
   },
   {
     "objectID": "qmdfiles/M_SLR_Blank.html#interpolation-vs.-extrapolation",
     "href": "qmdfiles/M_SLR_Blank.html#interpolation-vs.-extrapolation",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Interpolation vs. Extrapolation",
     "text": "Interpolation vs. Extrapolation\nInterpolation is a method of estimating a hypothetical value that exists within a data set.\nExtrapolation is a method of estimation for hypothetical values that fall outside a data set."
   },
@@ -471,28 +471,28 @@
   {
     "objectID": "notes/M_SLR_Notes.html",
     "href": "notes/M_SLR_Notes.html",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "",
     "text": "#LOAD PACKAGES\nlibrary(tidyverse)\nlibrary(infer)\nlibrary(broom)\nset.seed(999)\nLet’s this about some ways we can summarize and explore relationships between two variables:\nToday, we are going to dive into the “two numeric variables” case."
   },
   {
     "objectID": "notes/M_SLR_Notes.html#sustainability-data",
     "href": "notes/M_SLR_Notes.html#sustainability-data",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Sustainability Data",
     "text": "Sustainability Data\n\n#LOAD DATA\npower &lt;- read.csv(\"../data/power.csv\")\n\n\n power %&gt;% \n   drop_na() %&gt;% \n   ggplot(aes(x=windSpeedRadarTower_m_per_sec, y=power_kW)) + \n   geom_point(pch=16, alpha=0.5, position=\"jitter\") + \n   geom_smooth(method=lm, se=FALSE) +\n   labs(x = \"Wind Speed (m/s)\", y = \"Power (kW)\") + \n   theme_minimal()"
   },
   {
     "objectID": "notes/M_SLR_Notes.html#banner-tailed-kangaroo-rats-in-portal-az",
     "href": "notes/M_SLR_Notes.html#banner-tailed-kangaroo-rats-in-portal-az",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Banner-tailed Kangaroo Rats in Portal, AZ",
     "text": "Banner-tailed Kangaroo Rats in Portal, AZ\n\n#load kangaroo rat data\nkangaroo_rats &lt;- read.csv(\"https://github.com/weecology/PortalData/raw/main/Rodents/Portal_rodent.csv\") %&gt;% \n  filter(species %in% c(\"DS\")) %&gt;% \n  select(year, month, day, species, sex, hfl, wgt)\n\n\nkangaroo_rats %&gt;% \n   drop_na() %&gt;% \n   ggplot(aes(x=hfl, y=wgt)) + \n   geom_point(pch=16, alpha=0.5, position=\"jitter\") + \n   geom_smooth(method=lm, se=FALSE) +\n   labs(x = \"Hindfoot Length\", y = \"Weight\") + \n   theme_minimal()"
   },
   {
     "objectID": "notes/M_SLR_Notes.html#interpolation-vs.-extrapolation",
     "href": "notes/M_SLR_Notes.html#interpolation-vs.-extrapolation",
-    "title": "Notes L",
+    "title": "Notes M",
     "section": "Interpolation vs. Extrapolation",
     "text": "Interpolation vs. Extrapolation\nInterpolation is a method of estimating a hypothetical value that exists within a data set.\nExtrapolation is a method of estimation for hypothetical values that fall outside a data set."
   },
