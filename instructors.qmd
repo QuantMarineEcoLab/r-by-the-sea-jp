@@ -37,7 +37,7 @@ page-navigation: false
 </div> 
 
 <div class="bio-card">
-  <img src="images/ff.png" alt="Faith Frings">
+  <img src="images/FF.png" alt="Faith Frings">
   <h4>Faith Frings </h4>
   <p><i>(she/her)</i></p>
   <h6>PhD Candidate<br>
